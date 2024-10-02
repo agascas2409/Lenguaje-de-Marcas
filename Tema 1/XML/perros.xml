@@ -15,19 +15,6 @@
         </peso>
     </raza>
     <raza>
-        <nombre>Perro salchicha</nombre>
-        <abreviatura>PS</abreviatura>
-        <origen>Alemania</origen>
-        <tamanio>
-            <macho>20 a 27 cm</macho>
-            <hembra>17 a 25 cm</hembra>
-        </tamanio>
-        <peso>
-            <macho>7 a 9 kg</macho>
-            <hembra>5 a 8</hembra>
-        </peso>
-    </raza>
-    <raza>
         <nombre>Perro dalmata</nombre>
         <abreviatura>PD</abreviatura>
         <origen>Croacia</origen>
@@ -40,6 +27,20 @@
             <hembra>25 a 35 kg</hembra>
         </peso>
     </raza>
+    <raza>
+        <nombre>Perro salchicha</nombre>
+        <abreviatura>PS</abreviatura>
+        <origen>Alemania</origen>
+        <tamanio>
+            <macho>20 a 27 cm</macho>
+            <hembra>17 a 25 cm</hembra>
+        </tamanio>
+        <peso>
+            <macho>7 a 9 kg</macho>
+            <hembra>5 a 8</hembra>
+        </peso>
+    </raza>
+    
     <raza>
         <nombre>Perro caniche</nombre>
     </raza>
