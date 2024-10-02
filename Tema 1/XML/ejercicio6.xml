@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- Informacion del pedido -->
 <pedido codigo="1111">
     <dueño>
         <nombre>José Antonio</nombre>
