@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca>
+    <libro>
+        <titulo></titulo>
+        <autor></autor>
+        <agno></agno>
+        <genero></genero>
+        <idioma></idioma>
+        <sinopsis></sinopsis>
+        <comentarios></comentarios>
+    </libro>
+    <libro>
+        <titulo></titulo>
+        <autor></autor>
+        <agno></agno>
+        <genero></genero>
+        <idioma></idioma>
+        <sinopsis></sinopsis>
+        <comentarios></comentarios>
+    </libro>
+    <libro>
+        <titulo></titulo>
+        <autor></autor>
+        <agno></agno>
+        <genero></genero>
+        <idioma></idioma>
+        <sinopsis></sinopsis>
+        <comentarios></comentarios>
+    </libro>
+</biblioteca>

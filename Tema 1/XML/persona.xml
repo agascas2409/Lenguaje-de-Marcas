@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persona>
+    <nombre>Pablo Martinez</nombre>
+    <fecha>
+        <dia>20</dia>
+        <mes>10</mes>
+        <agno>1993</agno>
+    </fecha>
+    <ciudad>Murcia</ciudad>
+</persona>
+<persona>
+    <nombre>Rocio Perez</nombre>
+    <fecha>
+        <dia>2</dia>
+        <mes>6</mes>
+        <agno>2003</agno>
+    </fecha>
+    <ciudad>Barcelona</ciudad>
+</persona>
+<persona>
+    <nombre>Juan Garcia</nombre>
+    <fecha>
+        <dia>17</dia>
+        <mes>2</mes>
+        <agno>1985</agno>
+    </fecha>
+    <ciudad>Sevilla</ciudad>
+</persona>

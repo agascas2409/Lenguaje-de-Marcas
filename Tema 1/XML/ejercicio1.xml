@@ -1,1 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- hola -->
+<paises>
+    <nombre>Mexico</nombre>
+    <poblacion>130.860.999</poblacion>
+    <capital>Ciudad de Mexico</capital>
+    <superficie>1.97 millones km2</superficie>
+</paises>
+<paises>
+    <nombre>Italia</nombre>
+    <poblacion>58.86 millones</poblacion>
+    <capital>Roma</capital>
+    <superficie>302.07 km2</superficie>
+</paises>
+<paises>
+    <nombre>Francia</nombre>
+    <poblacion>67.94 millones</poblacion>
+    <capital>Paris</capital>
+    <superficie>643.80K km2</superficie>
+</paises>
+<paises>
+    <nombre>España</nombre>
+    <poblacion>48.797.875</poblacion>
+    <capital>Madrid</capital>
+    <superficie>505.99K km2</superficie>
+</paises>
