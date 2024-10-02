@@ -2,10 +2,10 @@
 
 <!-- Informacion del pedido -->
 <pedido codigo="1111">
-    <dueño>
+    <duenio>
         <nombre>José Antonio</nombre>
         <apellido>Lojo</apellido>
-    </dueño>
+    </duenio>
     <producto>Bicicleta A2020</producto>
     <producto>Ordenador 1345</producto>
     <direccion>
