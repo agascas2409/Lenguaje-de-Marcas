@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- Diferentes tipos de perros-->
 <perro>
     <raza>
         <nombre>Grifón Azul de Gascuña</nombre>
