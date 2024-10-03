@@ -12,13 +12,15 @@
             Harry se siente muy triste y solo, hasta que un buen día recibe una carta que cambiará su vida para siempre. 
             En ella le comunican que ha sido aceptado como alumno en el colegio interno Hogwarts de magia y hechicería.
         </sinopsis>
-        <comentario>La forma en que J. K. Rowling describe el mundo mágico me ha encantado. 
-            He disfrutado con cada palabra que usaba para describirlo, imaginándome Hogwarts, su decoración, los hechizos... 
-            La descripción no es abundante, pero eres capaz de situarte perfectamente sin perderte ningún detalle.
-        </comentario>
-        <comentario>El ritmo de la historia es verdaderamente bueno. A lo largo de ésta se desencadenan numerosos conflictos, que hacen que siempre te mantengas enganchado al libro.
-            Aunque este primer libro es bastante infantil, ha logrado mantener mi interés y he de decir que sin duda, continuaré con la saga.
-        </comentario>
+        <comentarios>
+            <comentario>La forma en que J. K. Rowling describe el mundo mágico me ha encantado. 
+                He disfrutado con cada palabra que usaba para describirlo, imaginándome Hogwarts, su decoración, los hechizos... 
+                La descripción no es abundante, pero eres capaz de situarte perfectamente sin perderte ningún detalle.
+            </comentario>
+            <comentario>El ritmo de la historia es verdaderamente bueno. A lo largo de ésta se desencadenan numerosos conflictos, que hacen que siempre te mantengas enganchado al libro.
+                Aunque este primer libro es bastante infantil, ha logrado mantener mi interés y he de decir que sin duda, continuaré con la saga.
+            </comentario>
+        </comentarios>
     </libro>
     <libro>
         <titulo>The true love experiment</titulo>
@@ -32,20 +34,20 @@
         <sinopsis>Cuando una escritora de literatura romántica y un realizador de documentales unen fuerzas para crear la historia de amor definitiva de Hollywood saltan chispas, pero... 
             ¿serán capaces de evitar que la química que existe entre ellos les haga salirse del guion?
         </sinopsis>
-        <comentarios>¡Este es sin duda mi nuevo libro favorito de Christina Lauren! 
+        <comentario>¡Este es sin duda mi nuevo libro favorito de Christina Lauren! 
             Una lectura obligada para todos los fanáticos del romance y la secuela perfecta de The Soulmate Equation.
-        </comentarios>
+        </comentario>
     </libro>
     <libro>
-        <titulo>Romper el circulo</titulo>
+        <titulo genero="ficcion">Romper el circulo</titulo>
         <autor>Colleen Hoover</autor>
         <agno>2016</agno>
-        <genero>ficcion</genero>
         <idioma>español</idioma>
         <sinopsis>Lily no siempre lo ha tenido fácil, pero eso nunca le ha parado los pies. Por eso, su idílica relación con un magnífico neurocirujano llamado Ryle Kincaid, parece demasiado buena para ser verdad. 
             Cuando Atlas, su primer amor y su vínculo con el pasado, reaparece repentinamente y Ryle comienza a mostrar su verdadera cara, todo lo que Lily ha construido con él se ve amenazado. 
         </sinopsis>
-        <comentarios>Libro fácil de leer y entretenido. Trata temas delicados y duros, no apto para todas las edades y sensibilidades (violencia de género).
-        </comentarios>
+        <comentario>Libro fácil de leer y entretenido. 
+            Trata temas delicados y duros, no apto para todas las edades y sensibilidades (violencia de género).
+        </comentario>
     </libro>
 </biblioteca>
