@@ -22,8 +22,10 @@
     </libro>
     <libro>
         <titulo>The true love experiment</titulo>
-        <autor>Christina</autor>
-        <autor>Lauren</autor>
+        <autores>
+            <autor>Christina</autor>
+            <autor>Lauren</autor>
+        </autores>
         <agno>2024</agno>
         <genero>romance</genero>
         <idioma>ingles</idioma>
