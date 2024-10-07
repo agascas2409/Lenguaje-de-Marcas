@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<vehiculos>
-    <co:coche xmlns: co = "https://iesbelen.org/xml/coches">
+<vehiculos xmlns: co = "https://iesbelen.org/xml/coches" xmlns: mo = "https://iesbelen.org/xml/motos">
+    <co:coche>
         <co:marca>Toyota</co:marca>
         <co:modelo>Corolla</co:modelo>
         <co:potencia>150 HP</co:potencia>
     </co:coche>
-    <mo:moto xmlns: mo = "https://iesbelen.org/xml/motos">
+    <mo:moto>
         <mo:marca>Honda</mo:marca>
         <mo:modelo>CBR 600</mo:modelo>
         <mo:cilindrada>600 cc</mo:cilindrada>
