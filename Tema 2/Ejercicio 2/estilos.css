@@ -1,0 +1,17 @@
+body{
+    font-family: Verdana;
+    font-size: 12px;
+    font-size:normal;
+    color:blue;
+
+}
+h1 {
+    font-family:Georgia;
+    font-size:36px;
+    font-style:bold;
+    color:red;
+}
+h2 {
+    font-size:24px;
+    font-style:bold;
+}
