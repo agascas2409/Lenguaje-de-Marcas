@@ -3,7 +3,7 @@ body{
     font-size: 12px;
     font-size:normal;
     color:blue;
-
+    background: url(./assets/fondo.gif);
 }
 h1 {
     font-family:Georgia;
