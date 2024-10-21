@@ -1,9 +1,9 @@
 body{
     font-family: Verdana;
     font-size: 12px;
-    font-size:normal;
-    color:blue;
-    background: url(./assets/fondo.gif);
+    font-style:normal;
+    color:darkblue;
+    background-image: url(./assets/fondo.gif);
 
 }
 h1 {
