@@ -1,0 +1,34 @@
+body{
+    font-family: Verdana;
+    font-size: 12px;
+    font-style:normal;
+    color:black;
+    margin:20px;
+    background-color: #f8fedf;
+}
+h1 {
+    font-family:Arial;
+    font-size:36px;
+    font-style:bold;
+    color:darkblue;
+    text-align: center;
+    background-color: white;
+    border-top: solid thin;
+    border-bottom: solid thin;
+    margin: 20px, auto;
+}
+#datos{
+    background-color: rgb(238, 174, 174);
+    font-size: 14px;
+    color: #74030a;
+    font-family: Arial, Times, sans-serif;
+    border: solid, 3px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: 700px;
+    border-width: 50%;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px black;
+}

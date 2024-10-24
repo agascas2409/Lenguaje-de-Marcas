@@ -1,0 +1,19 @@
+body{
+    font-family: Verdana;
+    font-size: 12px;
+    font-style:normal;
+    color:black;
+    margin:20px;
+    background-color: #f8fedf;
+}
+h1 {
+    font-family:Arial;
+    font-size:36px;
+    font-style:bold;
+    color:red;
+    text-align: center;
+    background-color: black;
+    border-top: solid thin;
+    border-bottom: solid thin;
+    margin: 20px, auto;
+}
