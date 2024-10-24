@@ -13,8 +13,8 @@ h1 {
     color:darkblue;
     text-align: center;
     background-color: white;
-    border: solid, 3px;
-    border-color:rgb(55, 118, 189);
+    border-top: solid thin;
+    border-bottom: solid thin;
     margin: 20px, auto;
 }
 h2 {
