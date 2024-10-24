@@ -3,7 +3,7 @@ body{
     font-size: 12px;
     font-style:normal;
     color:black;
-    border: 20px;
+    margin:20px;
     background-color: #DFFEFD;
 }
 h1 {
@@ -13,9 +13,8 @@ h1 {
     color:darkblue;
     text-align: center;
     background-color: white;
-    border-top: 2px, blue;
-    border-bottom: 2px;
-    border-color:blue;
+    border: solid, 3px;
+    border-color:rgb(55, 118, 189);
     margin: 20px, auto;
 }
 h2 {
@@ -33,4 +32,34 @@ h2 {
     font-size: 14px;
     font-style: bold;
     color: green;
+}
+#datos{
+    background-color: rgb(238, 174, 174);
+    font-size: 14px;
+    color: #74030a;
+    font-family: Arial, Times, sans-serif;
+    border: solid, 3px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 50%;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px black;
+}
+#formacion{
+    background-color: rgb(136, 221, 255);
+    font-size: 14px;
+    color: #032775;
+    font-family: Arial, Times, sans-serif;
+    border: dotted, 3px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px black;
+    border-width: 50%;
 }
