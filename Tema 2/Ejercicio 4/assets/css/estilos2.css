@@ -17,3 +17,11 @@ h1 {
     border-bottom: solid thin;
     margin: 20px, auto;
 }
+table{
+    color:black;
+    text-align: center;
+    background-color: gray;
+    border: solid 1px;
+    margin: 20px;
+    padding: 15px;
+}
