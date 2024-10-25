@@ -17,11 +17,36 @@ h1 {
     border-bottom: solid thin;
     margin: 20px, auto;
 }
-table{
-    color:black;
-    text-align: center;
-    background-color: gray;
+nav{
+    overflow: hidden;
+    background-color: grey;
     border: solid 1px;
-    margin: 20px;
-    padding: 15px;
+    font-family:'Times New Roman', Times, serif;
+    margin: auto;
+}
+nav ul{
+    list-style: none;
+    list-style-type: circle;
+    margin: 0 10x 0 10px;
+}
+nav ul li{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+a:link{
+    text-decoration: none;
+    font-style: bold;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    font-style: bold;
+    color: black;
+}
+a:hover{
+    text-decoration:none;
+    font-style: bold;
+    color: white;
+    background-color: red;
 }
