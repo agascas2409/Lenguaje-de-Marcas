@@ -32,6 +32,9 @@ nav{
     border-radius: 25px;
     box-shadow: 2px 2px 5px black;
 }
+nav ul li{
+    list-style-image: ;
+}
 a:link{
     text-decoration: none;
     color: blue;
