@@ -23,17 +23,17 @@ nav{
     color: #74030a;
     font-family: Arial, Times, sans-serif;
     border: solid, 3px;
-    padding: 15px;
+    padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: 700px;
-    border-width: 50%;
+    margin-left: 20px;
+    margin-right: auto;
+    width: 20%;
     border-radius: 25px;
     box-shadow: 2px 2px 5px black;
 }
 nav ul li{
-    list-style-image: ;
+    list-style-image: url(./imagenes/carpeta.gif);
 }
 a:link{
     text-decoration: none;
