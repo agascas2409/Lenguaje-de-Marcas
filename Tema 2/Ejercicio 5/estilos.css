@@ -1,0 +1,28 @@
+body{
+    font-family: Times;
+    font-size: 12px;
+    font-style: normal;
+    color: black;
+    margin: auto;
+    background-color: #E9ECFC;
+    width: 800px;
+}
+
+h1{
+    font-family: Georgia;
+    font-size: 36px;
+    font-style: bold;
+    color: red;
+    margin: auto;
+}
+h2{
+    font-family:'Times New Roman';
+    font-size: 18px;
+    font-style: bold;
+    color: blue;
+    margin-left: 20px;
+    border-bottom: solid thin;
+}
+ol{
+    font-family: ;
+}
