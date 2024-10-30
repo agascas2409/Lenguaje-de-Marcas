@@ -20,9 +20,18 @@ h2{
     font-size: 18px;
     font-style: bold;
     color: blue;
-    margin-left: 20px;
+    text-align: left;
     border-bottom: solid thin;
 }
 ol{
-    font-family: ;
+    font-family: 'Comic San';
+    font-size: 14px;
+    font-style: normal;
+    color: blue;
+    background-color: yellow;
+    border: dotted;
+    text-align: right;
+    width: 40%;
+    margin: 20px 50px 20px 0px;
+    padding: 20px 50px 20px 50px;
 }
