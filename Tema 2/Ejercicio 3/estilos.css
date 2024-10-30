@@ -1,0 +1,65 @@
+body{
+    font-family: Verdana;
+    font-size: 12px;
+    font-style:normal;
+    color:black;
+    margin:20px;
+    background-color: #DFFEFD;
+}
+h1 {
+    font-family:Arial;
+    font-size:36px;
+    font-style:bold;
+    color:darkblue;
+    text-align: center;
+    background-color: white;
+    border-top: solid thin;
+    border-bottom: solid thin;
+    margin: 20px, auto;
+}
+h2 {
+    font-size:16px;
+    font-style:bold;
+}
+.TimesRojo {
+    font-family: 'Times New Roman';
+    font-size: 14px;
+    font-style: bold;
+    color: red;
+}
+.TimesVerde {
+    font-family: 'Times New Roman';
+    font-size: 14px;
+    font-style: bold;
+    color: green;
+}
+#datos{
+    background-color: rgb(238, 174, 174);
+    font-size: 14px;
+    color: #74030a;
+    font-family: Arial, Times, sans-serif;
+    border: solid, 3px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 50%;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px black;
+}
+#formacion{
+    background-color: rgb(136, 221, 255);
+    font-size: 14px;
+    color: #032775;
+    font-family: Arial, Times, sans-serif;
+    border: dotted, 3px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px black;
+    border-width: 50%;
+}

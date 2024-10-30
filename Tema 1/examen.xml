@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Examen XML -->
+<pedido xmlns:ped ="http://www.iesbelen.org/pedido"  xmlns:cli ="http://www.janderenterprises/com/client">
+    <ped:numero>Número 65412</ped:numero>
+    <ped:fecha>
+        <ped:dia>22</ped:dia>
+        <ped:mes>10</ped:mes>
+        <ped:agno>2015</ped:agno>
+    </ped:fecha>
+
+    <cli:ordenante>
+        <cli:nombre_completo>
+            <cli:nombre>Alicia</cli:nombre>
+            <cli:apellido>Lopez</cli:apellido>
+        </cli:nombre_completo>
+        <cli:calle>Avenida del condestable, 22</cli:calle>
+        <cli:localidad>Almogía</cli:localidad>
+        <cli:provincia>Málaga</cli:provincia>
+        <cli:codigo_postal>29211</cli:codigo_postal>
+    </cli:ordenante>
+
+    <ped:articulos>
+        <ped:articulo>
+            <ped:referencia>22321-W</ped:referencia>
+            <ped:nombre_articulo>Cortadora de cesped</ped:nombre_articulo>
+            <ped:cantidad>1</ped:cantidad>
+            <ped:precio_unitario precio="euros">423.65</ped:precio_unitario>
+        </ped:articulo>
+        <ped:articulo>
+            <ped:referencia>73623-A</ped:referencia>
+            <ped:nombre_articulo>Monitor de bebé</ped:nombre_articulo>
+            <ped:cantidad>2</ped:cantidad>
+            <ped:precio_unitario precio="euros">89.95</ped:precio_unitario>
+        </ped:articulo>
+    </ped:articulos>
+
+    <ped:comentarios>
+        <ped:comentario>Es impresionante la entrega en horario de tarde.</ped:comentario>
+        <ped:comentario>El timbre interior no funciona. Hay que llamar a la puerta.</ped:comentario>
+    </ped:comentarios>
+</pedido>

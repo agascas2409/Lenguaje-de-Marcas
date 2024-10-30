@@ -1,0 +1,49 @@
+body{
+    font-family: Verdana;
+    font-size: 12px;
+    font-style:normal;
+    color:black;
+    margin:20px;
+    background-color: #f8fedf;
+}
+h1 {
+    font-family:Arial;
+    font-size:36px;
+    font-style:bold;
+    color:darkblue;
+    text-align: center;
+    background-color: white;
+    border-top: solid thin;
+    border-bottom: solid thin;
+    margin: 20px, auto;
+}
+nav{
+    background-color: rgb(238, 174, 174);
+    font-size: 14px;
+    color: #74030a;
+    font-family: Arial, Times, sans-serif;
+    border: solid, 3px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px black;
+}
+nav ul li{
+    list-style-image: url(./imagenes/carpeta.gif);
+}
+a:link{
+    text-decoration: none;
+    color: blue;
+}
+a:visited{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
