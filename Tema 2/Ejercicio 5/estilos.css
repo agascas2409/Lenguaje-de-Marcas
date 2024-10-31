@@ -57,11 +57,13 @@ a:hover{
 div{
     text-align: center;
 }
-.alinear{
-    float: left;
-    display: inline;
-}
-.alinear2{
+.alinear1{
     float: right;
     display: inline;
+    margin-left: 5px;
+}
+.alinear2{
+    float: left;
+    display: inline;
+    margin-right: 5px;
 }
