@@ -4,23 +4,22 @@ body{
     font-style: normal;
     color: black;
     margin: auto;
-    background-color: #E9ECFC;
+    background-color: #ced4f8;
     width: 800px;
 }
-
 h1{
     font-family: Georgia;
     font-size: 36px;
     font-style: bold;
+    text-align: center;
     color: red;
-    margin: auto;
 }
 h2{
     font-family:'Times New Roman';
     font-size: 18px;
     font-style: bold;
     color: blue;
-    text-align: left;
+    text-align: right;
     border-bottom: solid thin;
 }
 ol{
@@ -28,10 +27,37 @@ ol{
     font-size: 14px;
     font-style: normal;
     color: blue;
-    background-color: yellow;
+    text-align: left;
+    background-color: rgb(226, 226, 101);
     border: dotted;
-    text-align: right;
     width: 40%;
-    margin: 20px 50px 20px 0px;
+    margin: 50px 20px 0px 20px;
     padding: 20px 50px 20px 50px;
+}
+.p1{
+    background-color: white;
+    text-align: center;
+    font-style: bold;
+    font-size: 24px;
+    padding: 5px;
+}
+.precio{
+    color: red;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:none;
+    color: red;
+}
+div{
+    text-align: center;
+}
+.alinear{
+    float: left;
+    display: inline;
 }
