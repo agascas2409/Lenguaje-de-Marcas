@@ -25,6 +25,7 @@ th{
     background-color: yellow;
     color: darkgoldenrod;
     border-bottom: 1px;
+    padding: 2px;
 }
 td{
     border: solid 1px;
