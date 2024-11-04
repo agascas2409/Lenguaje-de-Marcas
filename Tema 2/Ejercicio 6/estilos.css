@@ -1,0 +1,32 @@
+body{
+    font-family: Times;
+    font-size: 12px;
+    font-style: normal;
+    color: black;
+}
+table{
+    border: solid 1px;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+}
+caption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: green;
+    text-align: center;
+}
+.filas{
+    background-color: rgb(162, 245, 217);
+}
+th{
+    border: solid 1px;
+    border-collapse: collapse;
+    background-color: yellow;
+    color: darkgoldenrod;
+    border-bottom: 1px;
+}
+td{
+    border: solid 1px;
+    border-collapse: collapse;
+}
