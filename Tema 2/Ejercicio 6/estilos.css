@@ -4,31 +4,54 @@ body{
     font-style: normal;
     color: black;
 }
-table{
+table.horario caption{
+    font-family: Arial;
+    font-size: 36px;
+    color: green;
+    text-align: center;
+}
+table.horario{
     border: solid 1px;
     border-collapse: collapse;
     margin: auto;
     text-align: center;
 }
-caption{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 36px;
-    color: green;
-    text-align: center;
+table.horario td, th{
+    padding: 3px;
 }
-.filas{
-    background-color: rgb(162, 245, 217);
-}
-th{
-    border: solid 1px;
-    border-collapse: collapse;
+table.horario tr.encabezado th{
     background-color: yellow;
     color: darkgoldenrod;
-    border-bottom: 1px;
-    padding: 2px;
+    border-bottom: solid 1px;
 }
-td{
-    border: solid 1px;
+table.horario tr.azulClaro td{
+    background-color: lightblue;
+}
+table.horario tr.azulOscuro td{
+    background-color: rgb(56, 56, 231);
+}
+table.subirNota{
     border-collapse: collapse;
+    border: solid 1px;
+    margin: auto;
+    text-align: center;
+}
+table.subirNota caption{
+    font-size: 24px;
+    color: rgb(61, 59, 172);
+}
+table.subirNota tr.azul th{
+    color: bisque;
+    background-color: rgb(0, 89, 255);
+}
+table.subirNota tr.naranja th{
+    color: bisque;
+    background-color: orangered;
+}
+table.subirNota td.amarillo{
+    color: white;
+    background-color: rgb(31, 233, 65);
+}
+table.subirNota td{
     padding: 5px;
 }
