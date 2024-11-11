@@ -79,12 +79,14 @@
                 <label for="comida">Elige tu comida favorita</label>
                 <select id="comida" name="comida">
                     <optgroup label="Principales">
-                        <!--añadir mas opciones-->
                         <option>Ensalada</option>
+                        <option>Sopa</option>
+                        <option>Solomillo</option>
                     </optgroup>
                     <optgroup label="Aperitivos">
-                        <!--añadir mas opciones-->
-                        <option>hola</option>
+                        <option>Patatas</option>
+                        <option>Aceitunas</option>
+                        <option>Lomo</option>
                     </optgroup>
                 </select>
             </div>
@@ -94,4 +96,24 @@
             </div>
         </form>
         <!--Ejercicio 4-->
+        <h2>Ejercicio 4</h2>
+        <form id="ejercicio4" name="ejercicio4" method="post">
+            <div>
+                <label for="elegir">Elige tu comida favorita: </label>
+                <input id="elegir" name="elegir" value="kebab" type="checkbox">Kebab</input>
+                <input id="elegir" name="elegir" value="ensalada" type="checkbox" checked="">Ensalada</input>
+                <input id="elegir" name="elegir" value="hamburguesa" type="checkbox">Hamburguesa</input>
+                <input id="elegir" name="elegir" value="pizza" type="checkbox">Pizza</input>
+            </div>
+            <div>
+                <label for="pago">Método pago: </label>
+                <input id="pago" name="pago" value="vale" type="radio">Vale</input>
+                <input id="pago" name="pago" value="tarjeta" type="radio">Tarjeta</input>
+                <input id="pago" name="pago" value="cash" type="radio" checked="">CASH</input>
+            </div>
+            <div>
+                <input type="submit" value="Enviar"/>
+                <input value="Borrar" type="reset"/>
+            </div>
+        </form>
 </body>
