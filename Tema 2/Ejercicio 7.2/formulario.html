@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <title>Formularios</title>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="formularios"/>
+    <meta name="author" content="Ana Gaspar"/>
+    <meta name="keywords" content="HTML, h1, index, CSS, formularios"/>
+
+    <link rel="stylesheet" href="./estilos.css" type="text/css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Pedido de Pizza</legend>
+            <div class="simple">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre"/>
+            </div>
+            <div class="simple">
+                <label for="direccion">Dirección</label>
+                <input type="text" id="direccion" name="direccion"/>
+            </div>
+            <div class="simple">
+                <label for="ingredientes">Ingredientes</label>
+                <input type="radio" id="ingredientes" name="ingredientes" value="queso">Queso</input>
+                <input type="radio" id="ingredientes" name="ingredientes" value="pimiento">Pimiento</input>
+                <input type="radio" id="ingredientes" name="ingredientes" value="cebolla">Cebolla</input>
+            </div>
+            <div class="simple">
+                <label for="tamagno">Tamaño</label>
+                <input type="checkbox" id="tamagno" name="tamagno" value="pquegna">Pequeña</input>
+                <input type="checkbox" id="tamagno" name="tamagno" value="madiana">Mediana</input>
+                <input type="checkbox" id="tamagno" name="tamagno" value="grande">Grande</input>
+            </div>
+            <div class="simple">
+                <label for="pago">Tarjeta</label>
+                <select id="pago" name="pago">
+                        <option>Visa</option>
+                        <option>MasterCard</option>
+                        <option>Efectico</option>
+                </select>
+            </div>
+            <div class="simple">
+                <label for="comentario">Comentario</label>
+                    <textarea id="comentario" name="comentario"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Enviar"/>
+                <input value="Borrar" type="reset"/>
+            </div>
+        </fieldset>
+    </form>
+</body>

@@ -1,0 +1,46 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    color: black;
+    font-style: normal;
+    background-color: gray;
+    margin: 20px;
+}
+form{
+    margin: auto;
+    background-color: darkblue;
+    border: solid black 2px;
+    width: 600px;
+    padding: 10px;
+    color: white;
+}
+div.simple{
+    padding: 1px;
+}
+div.simple label{
+    display: inline;
+    clear: none;
+    float: left;
+    margin: 5px;
+}
+form.hola{
+    background-color:  #ffcc99;
+}
+h1{
+    background-color: orange;
+    font-family: Times, serif;
+    font-size: 18px;
+    color: black;
+    font-style: bold;
+    text-align: center;
+    padding: auto;
+}
+label.lll{
+    background-color: maroon;
+    font-family: Times, serif;
+    font-size: 14px;
+    color: white;
+    font-style: bold;
+    text-align: center;
+    padding: auto;
+}
