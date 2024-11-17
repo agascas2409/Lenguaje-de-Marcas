@@ -6,7 +6,7 @@ body{
     background-color: gray;
     margin: 20px;
 }
-form{
+form.simple{
     margin: auto;
     background-color: darkblue;
     border: solid black 2px;
@@ -14,19 +14,21 @@ form{
     padding: 10px;
     color: white;
 }
-div.simple{
+form.simple div{
     padding: 1px;
 }
-div.simple label{
+form.simple div label{
     display: inline;
     clear: none;
     float: left;
     margin: 5px;
 }
-form.hola{
+form.complejo{
     background-color:  #ffcc99;
+    margin: auto;
+    width: 600px;
 }
-h1{
+form.complejo h1{
     background-color: orange;
     font-family: Times, serif;
     font-size: 18px;
@@ -35,12 +37,19 @@ h1{
     text-align: center;
     padding: auto;
 }
-label.lll{
+form.complejo div label{
     background-color: maroon;
     font-family: Times, serif;
     font-size: 14px;
     color: white;
     font-style: bold;
     text-align: center;
-    padding: auto;
+    padding: 2px 10px 2px 10px;
+}
+.linea{
+    display: inline;
+    clear: none;
+    float: left;
+    padding: 5px;
+    margin: 10px;
 }
