@@ -46,7 +46,7 @@ form.complejo h1{
     text-align: center;
     padding: auto;
 }
-form.complejo div label{
+div.bloque label{
     background-color: maroon;
     font-family: Times, serif;
     font-size: 14px;
@@ -67,7 +67,7 @@ form.complejo div label{
 .linea{
     display: inline;
     clear: none;
-    width: 40%;
+    width: 30%;
     float: left;
     padding: 5px;
     height: 100%;
