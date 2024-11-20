@@ -27,11 +27,6 @@ form.simple label{
     width: 10%;
 }
 
-.ingredientes{
-    display: block;
-    clear: both;
-    margin: 10px 0 0 0;
-}
 form.complejo{
     background-color:  #ffcc99;
     margin: auto;
