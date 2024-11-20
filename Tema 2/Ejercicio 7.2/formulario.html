@@ -22,9 +22,9 @@
             </div>
             <div>
                 <label for="ingredientes">Ingredientes</label>
-                <input type="radio" id="ingredientes" name="ingredientes" value="queso">Queso</input>
-                <input type="radio" id="ingredientes" name="ingredientes" value="pimiento">Pimiento</input>
-                <input type="radio" id="ingredientes" name="ingredientes" value="cebolla">Cebolla</input>
+                <input type="checkbox" id="ingredientes" name="ingredientes" value="queso">Queso</input>
+                <input type="checkbox" id="ingredientes" name="ingredientes" value="pimiento">Pimiento</input>
+                <input type="checkbox" id="ingredientes" name="ingredientes" value="cebolla">Cebolla</input>
             </div>
             <div>
                 <label for="tamagno">Tamaño</label>
@@ -54,39 +54,59 @@
     <form class="complejo">
         <fieldset>
             <h1>- Pedido de Pizza -</h1>
-            <div>
+            <div class="bloque">
                 <label for="nombre">Nombre</label>
                 <input type="text" id="nombre" name="nombre"/>
             </div>
-            <div>
+            <div class="bloque">
                 <label for="direccion">Dirección</label>
                 <input type="text" id="direccion" name="direccion"/>
             </div>
-            <div>
+            <div class="bloque">
                 <label for="edad">Edad</label>
                 <input type="number" id="edad" name="edad" min="0"/>
             </div>
-            <div class="linea">
-                <label for="ingredientes">Ingredientes</label>
-                <input type="checkbox" id="ingredientes" name="ingredientes" value="queso">Queso</input>
-                <input type="checkbox" id="ingredientes" name="ingredientes" value="pimiento">Pimiento</input>
-                <input type="checkbox" id="ingredientes" name="ingredientes" value="cebolla">Cebolla</input>
+            <div class="bloquecontenedor">
+                <div class="linea">
+                    <p>Ingredientes</p>
+                    <div>
+                        <input type="radio" id="ingredientes" name="ingredientes" value="queso"/>
+                        <label for="ingredientes">Queso</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="ingredientes2" name="ingredientes2" value="pimiento"/>
+                        <label for="ingredientes2">Pimiento</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="ingredientes3" name="ingredientes3" value="cebolla"/>
+                        <label for="ingredientes3">Cebolla</label>
+                    </div>
+                </div>
+                <div class="linea">
+                    <p>Tamaño</p>
+                    <div>
+                        <input type="radio" id="tamagno" name="tamagno" value="pequegna"/>
+                        <label for="tamagno">Pequeña</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="tamagno2" name="tamagno2" value="mediana"/>
+                        <label for="tamagno">Mediana</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="tamagno3" name="tamagno3" value="grande"/>
+                        <label for="tamagno">Grande</label>
+                    </div>
+                </div>
+                <div class="linea">
+                    <label for="pago">Tarjeta</label>
+                    <select id="pago" name="pago">
+                            <option>Visa</option>
+                            <option>MasterCard</option>
+                            <option>Efectico</option>
+                    </select>
+                </div>
             </div>
-            <div class="linea">
-                <label for="tamagno">Tamaño</label>
-                <input type="radio" id="tamagno" name="tamagno" value="pquegna">Pequeña</input>
-                <input type="radio" id="tamagno" name="tamagno" value="madiana">Mediana</input>
-                <input type="radio" id="tamagno" name="tamagno" value="grande">Grande</input>
-            </div>
-            <div class="linea">
-                <label for="pago">Tarjeta</label>
-                <select id="pago" name="pago">
-                        <option>Visa</option>
-                        <option>MasterCard</option>
-                        <option>Efectico</option>
-                </select>
-            </div>
-            <div>
+            <div class="bloque">
                 <label for="comentario">Instrucciones especiales</label>
                     <textarea id="comentario" name="comentario"></textarea>
             </div>
