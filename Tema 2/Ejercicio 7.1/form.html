@@ -79,14 +79,14 @@
                 <label for="comida">Elige tu comida favorita</label>
                 <select id="comida" name="comida">
                     <optgroup label="Principales">
-                        <option>Ensalada</option>
-                        <option>Sopa</option>
-                        <option>Solomillo</option>
+                        <option value="ensalada">Ensalada</option>
+                        <option value="sopa">Sopa</option>
+                        <option value="solomillo">Solomillo</option>
                     </optgroup>
                     <optgroup label="Aperitivos">
-                        <option>Patatas</option>
-                        <option>Aceitunas</option>
-                        <option>Lomo</option>
+                        <option value="patatas">Patatas</option>
+                        <option value="aceitunas">Aceitunas</option>
+                        <option value="lomo">Lomo</option>
                     </optgroup>
                 </select>
             </div>
@@ -100,16 +100,23 @@
         <form id="ejercicio4" name="ejercicio4" method="post">
             <div>
                 <label for="elegir">Elige tu comida favorita: </label>
-                <input id="elegir" name="elegir" value="kebab" type="checkbox">Kebab</input>
-                <input id="elegir" name="elegir" value="ensalada" type="checkbox" checked="">Ensalada</input>
-                <input id="elegir" name="elegir" value="hamburguesa" type="checkbox">Hamburguesa</input>
-                <input id="elegir" name="elegir" value="pizza" type="checkbox">Pizza</input>
+                <input id="elegir" name="elegir" value="kebab" type="checkbox"/>
+                <label for="elegir">Kebab</label>
+                <input id="elegir" name="elegir" value="ensalada" type="checkbox" checked=""/>
+                <label for="elegir">Ensalada</label>
+                <input id="elegir" name="elegir" value="hamburguesa" type="checkbox"/>
+                <label for="elegir">Hamburguesa</label>
+                <input id="elegir" name="elegir" value="pizza" type="checkbox"/>
+                <label for="elegir">Pizza</label>
             </div>
             <div>
                 <label for="pago">Método pago: </label>
-                <input id="pago" name="pago" value="vale" type="radio">Vale</input>
-                <input id="pago" name="pago" value="tarjeta" type="radio">Tarjeta</input>
-                <input id="pago" name="pago" value="cash" type="radio" checked="">CASH</input>
+                <input id="pago" name="pago" value="vale" type="radio"/>
+                <label for="pago">Vale</label>
+                <input id="pago" name="pago" value="tarjeta" type="radio"/>
+                <label for="pago">Tarjeta</label>
+                <input id="pago" name="pago" value="cash" type="radio" checked=""/>
+                <label for="pago">CASH</label>
             </div>
             <div>
                 <input type="submit" value="Enviar"/>
