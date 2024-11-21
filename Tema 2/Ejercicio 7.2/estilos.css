@@ -6,6 +6,7 @@ body{
     background-color: gray;
     margin: 20px;
 }
+
 form.simple{
     margin: auto;
     background-color: darkblue;
@@ -27,11 +28,6 @@ form.simple label{
     width: 10%;
 }
 
-.ingredientes{
-    display: block;
-    clear: both;
-    margin: 10px 0 0 0;
-}
 form.complejo{
     background-color:  #ffcc99;
     margin: auto;
@@ -46,6 +42,11 @@ form.complejo h1{
     text-align: center;
     padding: auto;
 }
+div.bloque{
+    display: block;
+    clear: both;
+    margin: 5px 2px 5px 2px;
+}
 div.bloque label{
     background-color: maroon;
     font-family: Times, serif;
@@ -54,6 +55,14 @@ div.bloque label{
     font-style: bold;
     text-align: center;
     padding: 2px 10px 2px 10px;
+    display: inline;
+    clear: none;
+    float: left;
+    margin: 5px;
+    width: 10%;
+}
+div.bloque input{
+    width: 80%;
 }
 .linea p{
     background-color: maroon;
@@ -70,11 +79,35 @@ div.bloque label{
     width: 30%;
     float: left;
     padding: 5px;
-    height: 100%;
 }
 .bloquecontenedor{
     display: block;
     clear: both;
     margin: 15px 0 0 0;
     width: 100%;
+    height: 100%;
+}
+div.bloque2{
+    display: block;
+    clear: both;
+    margin: 5px 2px 5px 2px;
+}
+div.bloque2 label{
+    display: block;
+    clear: both;
+    width: 95%;
+    background-color: maroon;
+    font-family: Times, serif;
+    font-size: 14px;
+    color: white;
+    font-style: bold;
+    text-align: center;
+    padding: 2px 10px 2px 10px;
+    margin-bottom: 5px;
+}
+div.bloque2 textarea{
+    margin: 0 100px 0 100px;
+}
+.botones input{
+    margin: 0 100px 0 100px;
 }
