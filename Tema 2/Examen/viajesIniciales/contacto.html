@@ -38,8 +38,8 @@
                     <input type="text" id="nombre" name="nombre"/>
                 </div>
                 <div>
-                    <label for="avatar">Seleccione el color de su avatar</label>
-                    <input type="color" id="avatar" name="avatar"/>
+                    <label for="color">Color preferido</label>
+                    <input type="color" id="color" name="color"/>
                 </div>
                 <div>
                     <label for="web">Web</label>
@@ -60,21 +60,19 @@
                     <input type="checkbox" id="transporte" name="transporte" value="tren" checked>Tren</input>
                     <input type="checkbox" id="transporte" name="transporte" value="avion">Avión</input>
                 </div>
-                <div>
-                    <div>
-                        <label for="comida">Elige tu comida favorita</label>
-                    <select id="comida" name="comida">
-                        <optgroup label="Principales">
-                            <option value="ensalada">Ensalada</option>
-                            <option value="sopa">Sopa</option>
-                            <option value="solomillo">Solomillo</option>
-                        </optgroup>
-                        <optgroup label="Aperitivos">
-                            <option value="patatas">Patatas</option>
-                            <option value="aceitunas">Aceitunas</option>
-                            <option value="lomo">Lomo</option>
-                        </optgroup>
-                    </select>
+                <div class="bloquecontenedor">
+                    <div class="linea">
+                        <label for="guia">Opción a Guía</label>
+                        <input type="radio" id="guia" name="guia" value="si">Si</input>
+                        <input type="radio" id="guia" name="guia" value="no" checked>No</input>
+                    </div>
+                    <div class="linea">
+                        <label for="pago">Forma de pago</label>
+                        <select id="pago" name="pago">
+                            <option value="contado">Al contado</option>
+                            <option value="tarjeta">Tarjeta</option>
+                            <option value="bizum">Bizum</option>
+                        </select>
                     </div>
                 </div>
                 
@@ -86,7 +84,7 @@
         </form>
     </div>
     <div class="enlaces">
-        <p><a href="https://www.skyscanner.es" target="_blank">Vuelos</a></p>
-        <p><a href="https://www.booking.com" target="_blank">Hotel</a>Hotel</p>
+        <p>Sitio web con<a href="https://www.skyscanner.es" target="_blank">Vuelos baratos</a></p>
+        <p>Sitio web con<a href="https://www.booking.com" target="_blank">Hotel baratos</a></p>
     </div>
 </body>

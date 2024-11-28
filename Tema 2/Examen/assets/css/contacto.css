@@ -72,9 +72,28 @@ form.simple div{
     clear: both;
 }
 form.simple label{
+    font-size: 15px;
     display: inline;
     clear: none;
     float: left;
     margin: 5px;
-    width: 10%;
+    width: 20%;
+}
+form.simple input{
+    border: solid red thin;
+    width: 60%;
+}
+.linea{
+    display: inline;
+    clear: none;
+    width: 30%;
+    float: left;
+    padding: 5px;
+}
+.bloquecontenedor{
+    display: block;
+    clear: both;
+    margin: 15px 0 0 0;
+    width: 100%;
+    height: 100%;
 }
