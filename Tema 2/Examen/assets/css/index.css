@@ -22,10 +22,6 @@ nav ul li{
 div.presentacion{
     text-align: center;
 }
-img{
-    width: 400px;
-    height: 300;
-}
 /* Enlaces */
 div.comun a:link{
     text-decoration: none;
