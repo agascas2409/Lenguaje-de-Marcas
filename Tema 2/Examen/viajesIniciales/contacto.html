@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+    <title>Examen</title>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="examen"/>
+    <meta name="author" content="Ana Gaspar"/>
+    <meta name="keywords" content="HTML, h1, index, CSS, examen"/>
+
+    <link rel="stylesheet" href="../assets/css/contacto.css" type="text/css">
+</head>
+<body>
+    <div class="comun">
+        <h1>Contacta con Nosotros</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="destino1.html">Japón</a></li>
+                <li><a href="destino2.html">París</a></li>
+                <li><a href="contacto.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="presentacion">
+        <form class="simple">
+            <fieldset>
+                <h1>Formulario</h1>
+                <hr/>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email"/>
+                </div>
+                <div>
+                    <label for="contrasegna">Contraseña</label>
+                    <input type="password" id="contrasegna" name="contrasegna"/>
+                </div>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre"/>
+                </div>
+                <div>
+                    <label for="avatar">Seleccione el color de su avatar</label>
+                    <input type="color" id="avatar" name="avatar"/>
+                </div>
+                <div>
+                    <label for="web">Web</label>
+                    <input type="text" id="web" name="web"/>
+                </div>
+                <div>
+                    <label for="telefono">Telefono</label>
+                    <input type="text" id="telefono" name="telefono"/>
+                </div>
+                <div>
+                    <label for="fecha">Fecha nacimiento</label>
+                    <input type="date" id="fecha" name="fecha"/>
+                </div>
+                <div>
+                    <label for="transporte">Transporte</label>
+                    <input type="checkbox" id="transporte" name="transporte" value="coche">Coche</input>
+                    <input type="checkbox" id="transporte" name="transporte" value="barco">Barco</input>
+                    <input type="checkbox" id="transporte" name="transporte" value="tren" checked>Tren</input>
+                    <input type="checkbox" id="transporte" name="transporte" value="avion">Avión</input>
+                </div>
+                <div>
+                    <div>
+                        <label for="comida">Elige tu comida favorita</label>
+                    <select id="comida" name="comida">
+                        <optgroup label="Principales">
+                            <option value="ensalada">Ensalada</option>
+                            <option value="sopa">Sopa</option>
+                            <option value="solomillo">Solomillo</option>
+                        </optgroup>
+                        <optgroup label="Aperitivos">
+                            <option value="patatas">Patatas</option>
+                            <option value="aceitunas">Aceitunas</option>
+                            <option value="lomo">Lomo</option>
+                        </optgroup>
+                    </select>
+                    </div>
+                </div>
+                
+                <div>
+                    <input type="submit" value="Enviar"/>
+                    <input value="Borrar" type="reset"/>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <div class="enlaces">
+        <p><a href="https://www.skyscanner.es" target="_blank">Vuelos</a></p>
+        <p><a href="https://www.booking.com" target="_blank">Hotel</a>Hotel</p>
+    </div>
+</body>

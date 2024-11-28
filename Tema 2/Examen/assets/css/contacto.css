@@ -2,7 +2,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     background-color: white;
 }
-h1{
+div.comun h1{
     background-color: rgb(49, 48, 48);
     color: white;
     font-family: 'Courier New', Courier, monospace;
@@ -56,4 +56,25 @@ div.enlaces a:hover{
     text-decoration: none;
     font-style: bold;
     color: blue;
+}
+/*Formulario*/
+form.simple{
+    margin: auto;
+    background-color: rgb(163, 163, 158);
+    border: solid black 2px;
+    width: 600px;
+    padding: 10px;
+    color: black;
+}
+form.simple div{
+    padding: 1px;
+    display: block;
+    clear: both;
+}
+form.simple label{
+    display: inline;
+    clear: none;
+    float: left;
+    margin: 5px;
+    width: 10%;
 }
