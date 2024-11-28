@@ -81,12 +81,17 @@ form.simple label{
 }
 form.simple input{
     border: solid red thin;
+}
+div.ancho input{
     width: 60%;
+}
+div.entrada input{
+    width: 35%;
 }
 .linea{
     display: inline;
     clear: none;
-    width: 30%;
+    width: 60%;
     float: left;
     padding: 5px;
 }
@@ -96,4 +101,9 @@ form.simple input{
     margin: 15px 0 0 0;
     width: 100%;
     height: 100%;
+}
+.alta input{
+    color: white;
+    border: solid black thin;
+    background-color: black;
 }
