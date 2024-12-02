@@ -29,7 +29,7 @@
 	/* grid-row indica el numero de filas */
 	grid-row: 2 / 4;
 	border: solid black;
-	background-color: gold;
+	background-color: goldenrod;
 }
 .cian{
 	grid-column: 1 / 2;
