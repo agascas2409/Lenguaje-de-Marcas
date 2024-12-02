@@ -13,16 +13,19 @@
 	grid-column-end: 3;
 	border: solid black;
 	background-color: red;
+	order: 4;
 }
 .verde{
 	grid-column: 1 / 2;
 	border: solid black;
 	background-color: green;
+	order: 3;
 }
 .azul{
 	grid-column: 1 / 2;
 	border: solid black;
 	background-color: blue;
+	order: 2;
 }
 .amarillo{
 	grid-column: 2 / 2;
@@ -35,6 +38,7 @@
 	grid-column: 1 / 2;
 	border: solid black;
 	background-color: cyan;
+	order: 1;
 }
 .lima{
 	grid-column: 2 / 2;
