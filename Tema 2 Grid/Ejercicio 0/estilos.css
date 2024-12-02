@@ -19,13 +19,13 @@
 	grid-column: 1 / 2;
 	border: solid black;
 	background-color: green;
-	order: 3;
+	order: 2;
 }
 .azul{
 	grid-column: 1 / 2;
 	border: solid black;
 	background-color: blue;
-	order: 2;
+	order: 1;
 }
 .amarillo{
 	grid-column: 2 / 2;
@@ -33,21 +33,24 @@
 	grid-row: 2 / 4;
 	border: solid black;
 	background-color: goldenrod;
+	order: 1;
 }
 .cian{
 	grid-column: 1 / 2;
 	border: solid black;
 	background-color: cyan;
-	order: 1;
+	order: 0;
 }
 .lima{
 	grid-column: 2 / 2;
 	border: solid black;
 	background-color: greenyellow;
+	order: -1;
 }
 .negro{
 	grid-column-start: 1;
 	grid-column-end: 3;
 	border: solid black;
 	background-color: black;
+	order: -1;
 }
