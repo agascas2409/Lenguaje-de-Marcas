@@ -1,0 +1,53 @@
+.caja{
+	border: solid red thin;
+	padding: 10px;
+	display: grid;
+	grid-template: repeat(5, 1fr) / 1fr 1fr;
+	text-align: center;
+	gap: 15px;
+	color: white;
+}
+.rojo{
+	/* grid-column indica el numero de columnas */
+	grid-column-start: 1;
+	grid-column-end: 3;
+	border: solid black;
+	background-color: red;
+	order: 4;
+}
+.verde{
+	grid-column: 1 / 2;
+	border: solid black;
+	background-color: green;
+	order: 3;
+}
+.azul{
+	grid-column: 1 / 2;
+	border: solid black;
+	background-color: blue;
+	order: 2;
+}
+.amarillo{
+	grid-column: 2 / 2;
+	/* grid-row indica el numero de filas */
+	grid-row: 2 / 4;
+	border: solid black;
+	background-color: goldenrod;
+}
+.cian{
+	grid-column: 1 / 2;
+	border: solid black;
+	background-color: cyan;
+	order: 1;
+}
+.lima{
+	grid-column: 2 / 2;
+	border: solid black;
+	background-color: greenyellow;
+}
+.negro{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	border: solid black;
+	background-color: black;
+}
