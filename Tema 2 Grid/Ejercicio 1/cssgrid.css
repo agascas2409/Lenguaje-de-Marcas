@@ -1,0 +1,16 @@
+body{
+    margin: auto;
+    background: rgba(241, 239, 239, 0.645);
+}
+l #container{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto auto auto;
+    column-gap: 20px;
+    row-gap: 10px;
+    margin: 20px;
+}
+header{
+    color: white;
+    
+}
