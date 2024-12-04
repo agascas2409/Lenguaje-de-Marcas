@@ -14,48 +14,36 @@
         "rojo rojo";
 }
 .rojo{
-	/* grid-column indica el numero de columnas */
-	grid-column-start: 1;
-	grid-column-end: 3;
 	border: solid black;
 	background-color: red;
     grid-area: rojo;
 }
 .verde{
-	grid-column: 1 / 2;
 	border: solid black;
 	background-color: green;
     grid-area: verde;
 }
 .azul{
-	grid-column: 1 / 2;
 	border: solid black;
 	background-color: blue;
     grid-area: azul;
 }
 .amarillo{
-	grid-column: 2 / 2;
-	/* grid-row indica el numero de filas */
-	grid-row: 2 / 4;
 	border: solid black;
 	background-color: goldenrod;
     grid-area: amarillo;
 }
 .cian{
-	grid-column: 1 / 2;
 	border: solid black;
 	background-color: cyan;
     grid-area: cian;
 }
 .lima{
-	grid-column: 2 / 2;
 	border: solid black;
 	background-color: greenyellow;
     grid-area: lima;
 }
 .negro{
-	grid-column-start: 1;
-	grid-column-end: 3;
 	border: solid black;
 	background-color: black;
     grid-area: negro;

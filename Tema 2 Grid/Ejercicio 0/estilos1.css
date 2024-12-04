@@ -13,7 +13,7 @@
 	grid-column-end: 3;
 	border: solid black;
 	background-color: red;
-}
+	}
 .verde{
 	grid-column: 1 / 2;
 	border: solid black;
