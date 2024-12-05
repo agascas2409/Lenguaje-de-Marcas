@@ -4,22 +4,32 @@ body{
 }
 #container{
     display: grid;
-    grid-template-areas: repeat(4, 1fr), repeat(5, 1fr);
-    gap: 10px 10px;
-    margin: auto;
-    grid-area: "titulo titulo titulo titulo"
+    grid-template-areas: "titulo titulo titulo titulo"
                 "opcion opcion opcion opcion"
-                "a1 a2 a3 lateral"
-                "a4 a5 div lateral"
+                "seccion seccion seccion lateral"
+                "seccion seccion seccion lateral"
                 "pie pie pie pie";
+    gap: 10px 10px;
+    margin: 20px;
 }
 header{
     grid-area: titulo;
     background-color: blue;
+    color: white;
+    text-align: center;
 }
 nav{
     grid-area: opcion;
-
+    background-color: aqua;
+}
+li{
+    display: inline;
+}
+section{
+    grid-area: seccion;
+    background-color: lightslategray;
+    grid-template-areas: "a1 a2 a3"
+                        "a4 a5 aa";
 }
 #a1{
     grid-area: a1;
@@ -38,7 +48,13 @@ nav{
 }
 aside{
     grid-area: lateral;
+    background-color: goldenrod;
+    color: white;
+    text-align: center;
 }
 footer{
     grid-area: pie;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
