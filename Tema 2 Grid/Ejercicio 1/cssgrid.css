@@ -25,6 +25,12 @@ article {
     padding: 5px;
 }
 #a1{
+    grid-row: 3/4;
+}
+#a2{
+    grid-row: 4/5;
+}
+#a3{
     grid-row: span 2;
 }
 nav{
