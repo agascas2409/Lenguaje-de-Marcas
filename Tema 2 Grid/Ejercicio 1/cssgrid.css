@@ -1,8 +1,9 @@
 body {
     margin: auto;
-    background:rgba(241, 239, 239, 0.645)}
-  
+    background:rgba(241, 239, 239, 0.645)
+}
 #container {
+    width: 85%;
     display: grid;
     grid-template: 200px 1fr / repeat(3 1fr);
     gap: 10px 10px;
@@ -44,4 +45,3 @@ footer h2{color:white}
 @media (max-width: 600px) {
     .container {display: block;}
 }    
-   
