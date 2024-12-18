@@ -11,52 +11,89 @@
         <header class="h1 p-4 text-primary border-2 bg-light">
             <h1>Página Bootstrap</h1>
         </header>
-        <nav >
-            <ul>
-                <li>Inicio</li>
-                <li>Plataformas</li>
-                <li>Link</li>
-                <li>Filmografía</li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                                Plataformas
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Netflix</a></li>
+                                <li><a class="dropdown-item" href="#">Disney+</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Filmografía</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
         <aside>
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./assets/imagenes/banner-949931_1280.webp" class="d-block w-100" alt="imagen 1">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/imagenes/106363.jpg" class="d-block w-100" alt="imagen 2">
-                  </div>
+            <!-- Carrusel -->
+            <div class="container mt-4">
+                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="./assets/imagenes/banner-949931_1280.webp" class="d-block w-100" alt="Imagen 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/imagenes/106363.jpg" class="d-block w-100" alt="Imagen 2">
+                    </div>
                 </div>
-              </div>
+            </div>
         </aside>
         <section>
-            <table>
-                <tr>
-                    <td><!--simbolito de hastag--></td>
-                    <td>Título</td>
-                    <td>Director</td>
-                    <td>Administrador</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Titanic</td>
-                    <td>James Cameron</td>
-                    <td><!--Botones--></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>La llegada</td>
-                    <td>Thornton</td>
-                    <td><!--Botones--></td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Dune 2</td>
-                    <td>Dénis Villeneuve </td>
-                    <td><!--Botones--></td>
-                </tr>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Título</th>
+                        <th scope="col">Director</th>
+                        <th scope="col">Administrador</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr>
+                        <td scope="row">1</td>
+                        <td>Titanic</td>
+                        <td>James Cameron</td>
+                        <td>
+                            <button type="button" class="btn btn-primary">Actualizar</button>
+                            <button type="button" class="btn btn-success">Insertar</button>
+                            <button type="button" class="btn btn-dark">Borrar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td scope="row">2</td>
+                        <td>La llegada</td>
+                        <td>Thornton</td>
+                        <td>
+                            <button type="button" class="btn btn-primary">Actualizar</button>
+                            <button type="button" class="btn btn-success">Insertar</button>
+                            <button type="button" class="btn btn-dark">Borrar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td scope="row">3</td>
+                        <td>Dune 2</td>
+                        <td>Dénis Villeneuve </td>
+                        <td>
+                            <button type="button" class="btn btn-primary">Actualizar</button>
+                            <button type="button" class="btn btn-success">Insertar</button>
+                            <button type="button" class="btn btn-dark">Borrar</button>
+                        </td>
+                    </tr>
+                </tbody>
             </table>
         </section>
     </div>
