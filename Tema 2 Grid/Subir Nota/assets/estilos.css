@@ -1,0 +1,11 @@
+usarGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "aside section";
+}
+aside{
+    grid-area: aside;
+}
+section{
+    grid-area: section;
+}
