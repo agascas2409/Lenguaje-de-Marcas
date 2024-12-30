@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: grid;
     grid-template: 100px 50px 1fr 50px / 1fr;
     grid-template-areas:
@@ -19,7 +19,7 @@ header{
 }
 nav{
     grid-area: nav;
-    background-color: rgb(57, 56, 56);
+    background-color: rgb(73, 72, 72);
 }
 nav ul{
     margin-left: 340px;
@@ -64,7 +64,7 @@ h3{
     margin: auto;
     border: outset 2px lightgray;
 }
-.enviar input{
+.aside1 .enviar input{
     display: block;
     width: 80px;
     margin: 10px auto;
@@ -86,7 +86,7 @@ h3{
     border: solid thin;
 }
 .aside1 h3{
-    color: rgb(184, 26, 26);
+    color: brown;
 }
 .aside2{
     display: block;
@@ -107,7 +107,7 @@ section{
 .rojo{
     text-align: center;
     line-height: 0;
-    color: rgb(184, 26, 26);
+    color: brown;
 }
 h2{
     text-align: center;
@@ -130,7 +130,7 @@ article p{
 }
 footer{
     grid-area: footer;
-    background-color: rgb(57, 56, 56);
+    background-color: rgb(68, 67, 67);
     color: white;
     text-align: center;
     line-height: 3px;
