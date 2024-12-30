@@ -1,7 +1,9 @@
 body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: grid;
     grid-template: 100px 50px 1fr 50px / 1fr;
-    grid-template-areas: 
+    grid-template-areas:
         "header"
         "nav"
         "main"
@@ -9,45 +11,127 @@ body{
     min-height: 100vh;
 }
 header{
+    color: green;
     grid-area: header;
-    background-color: lightgrey;
+    background-color: lightgray;
     text-align: center;
+    text-shadow: 2px 2px black;
 }
 nav{
     grid-area: nav;
-    background-color: rgb(73, 73, 73);
+    background-color: rgb(57, 56, 56);
 }
 nav ul{
-
+    margin-left: 340px;
 }
 nav ul li{
-    display: inline-block;
-    padding: 10px;
-    border: solid thin white;
+    display: inline;
+    padding: 15px;
+    color: white;
+    border-left: solid thin;
 }
-.main{
+.bordeDerecho{
+    border-right: solid thin white;
+}
+main{
     grid-area: main;
     display: grid;
     grid-template: 1fr 140px / 400px 1fr;
-    grid-template-areas: 
+    grid-template-areas:
         "aside1 section"
         "aside2 section";
-        background-color: lightgray;
-        gap: 10px;
+    background-color: lightgray;
+    gap: 10px;
 }
 .aside1{
     grid-area: aside1;
-    border: solid 2px;
+    border: solid 2px gray;
     background-color: white;
     margin: 5px 0 0 40px;
+    text-align: center;
+}
+h3{
+    display: block;
+    font-weight: bold;
+    background-color: lightgray;
+    width: 330px;
+    margin: 10px auto;
+}
+.aside1 div input{
+    display: block;
+    padding: 4px;
+    width: 300px;
+    margin: auto;
+    border: outset 2px lightgray;
+}
+.enviar input{
+    display: block;
+    width: 80px;
+    margin: 10px auto;
+    background-color: green;
+    border: none;
+    color: white;
+}
+.aside1 a{
+    display: block;
+    text-align: left;
+    margin-left: 10px;
+    text-decoration: none;
+    color: green;
+    line-height: 20px;
+}
+.aside1 hr{
+    color: lightgray;
+    margin: 10px;
+    border: solid thin;
+}
+.aside1 h3{
+    color: rgb(184, 26, 26);
 }
 .aside2{
+    display: block;
     grid-area: aside2;
+    border: solid 2px gray;
+    background-color: white;
+    margin: 0 0 40px 40px;
+    padding-left: 10px;
 }
 section{
+    display: block;
     grid-area: section;
-    grid-area: ;
+    border: solid 2px gray;
+    background-color: white;
+    margin: 10px 60px 180px 25px;
+    padding: 20px;
+}
+.rojo{
+    text-align: center;
+    line-height: 0;
+    color: rgb(184, 26, 26);
+}
+h2{
+    text-align: center;
+    line-height: 0;
+}
+article hr{
+    border: solid 2px lightgray;
+}
+.fecha{
+    color: lightgray;
+    line-height: 0;
+}
+.titulo{
+    color: green;
+    text-decoration: underline;
+    font-weight: bold;
+}
+article p{
+    line-height: 20px;
 }
 footer{
     grid-area: footer;
-    background-color: rgb(73, 73,
+    background-color: rgb(57, 56, 56);
+    color: white;
+    text-align: center;
+    line-height: 3px;
+}
