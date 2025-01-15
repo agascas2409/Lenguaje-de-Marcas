@@ -1,0 +1,19 @@
+{
+    "numero_estudiantes":{
+        "primaria":35,
+        "secundaria":40,
+        "formacion_profesional":{
+            "fpb":5,
+            "cfgm":10,
+            "cfgs":20
+        },
+        "bachillerato":50
+    },
+    "nombre_colegio":"iesBelen",
+    "ciudad":{
+        "nombre":"malaga",
+        "provincia":"malaga",
+        "codigo_postal":29003,
+        "distancia":"1km"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "nombre":"Helados El Torcal",
+    "datos":{
+        "direccion":"Avenida Manuel Torres",
+        "telefono": 952174454,
+        "email":"heladoseltorcal@gmail.com"
+    },
+    "numero_empleados":3,
+    "deudas":false
+}
