@@ -1,0 +1,68 @@
+{
+    "estudiantes":[
+        {
+            "nombre_titulacion":"bachillerato",
+            "nombre_estudiante":{
+                "apellidos":"gaspar castillo",
+                "nombre":"Ana"
+            },
+            "email":"gasparcastilloana@gmail.com",
+            "repite":false,
+            "nombre_amistades":["Rosa", "Laura", "Armando"],
+            "asignaturas":[
+                {
+                    "nombre":"lengua",
+                    "nota":5
+                },
+                {
+                    "nombre":"filosofia",
+                    "nota":10
+                },
+                {
+                    "nombre":"historia",
+                    "nota":7
+                }
+            ]
+        },
+        {
+            "nombre_titulacion":"fp",
+            "nombre_estudiante":{
+                "apellidos":"gaspar castillo",
+                "nombre":"Ana"
+            },
+            "email":"gasparcastilloana@gmail.com",
+            "repite":false,
+            "nombre_amistades":["Zamira", "Laura", "Angel"],
+            "asignaturas":[
+                {
+                    "nombre":"programacion",
+                    "nota":8
+                },
+                {
+                    "nombre":"ipe",
+                    "nota":10
+                }
+            ]
+        },
+        {
+            "nombre_titulacion":"bachillerato",
+            "nombre_estudiante":{
+                "apellidos":"Morales Rodriguez",
+                "nombre":"Armando Jesús"
+            },
+            "email":"amorrod@g.educaand.es",
+            "repite":false,
+            "nombre_amistades":["Juan", "Ana", "Nadia"],
+            "asignaturas":[
+                {
+                    "nombre":"lengua",
+                    "nota":6
+                },
+                {
+                    "nombre":"filosofia",
+                    "nota":9
+                }
+            ]
+        }
+    ]
+}
