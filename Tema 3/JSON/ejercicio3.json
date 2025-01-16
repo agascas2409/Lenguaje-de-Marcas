@@ -1,0 +1,32 @@
+{
+    "apellidos_nombre":"Gaspar Castillo, Ana",
+    "datos_contacto":{
+        "correo":"gasparcastilloana@gmail.com",
+        "telefono":"639246216"
+    },
+    "ciudad_origen":"malaga",
+    "nombres_personas_acompañan":["Angel", "Laura", "Zamira"],
+    "gastos_del_viaje":200,
+    "destinos":[
+        {
+            "satisfecho":false,
+            "nombre":"barcelona",
+            "hotel":{
+                "nombre":"hotel barcelona",
+                "estrellas":3,
+                "precio_por_noche":23,
+                "numero_noches":2
+            }
+        },
+        {
+            "satisfecho":true,
+            "nombre":"valencia",
+            "hotel":{
+                "nombre":"hotel rey jaime",
+                "estrellas":4,
+                "precio_por_noche":16,
+                "numero_noches":3
+            }
+        }
+    ]
+}
