@@ -2,7 +2,7 @@
     "productos":[
         {
             "nombre":"Camiseta",
-            "precio":"19.99",
+            "precio":19.99,
             "disponible":true,
             "detalle":{
                 "color":"rojo",
@@ -11,7 +11,7 @@
         },
         {
             "nombre":"Pantalon",
-            "precio":"29.99",
+            "precio":29.99,
             "disponible":false,
             "detalle":{
                 "color":"azul",
