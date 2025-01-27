@@ -1,14 +1,14 @@
 {
     "catalogo_biblioteca":{
-        "nombre":"biblioteca central",
+        "nombre":"Biblioteca Central",
         "libros":[
             {
                 "isbn":"978-3-16",
-                "genero":"ficcion",
-                "titulo":"el gran viaje",
+                "genero":"Ficcion",
+                "titulo":"El Gran Viaje",
                 "autor":{
-                    "nombre":"juan gomez",
-                    "nacionalidad":"española"
+                    "nombre":"Juan Gomez",
+                    "nacionalidad":"Española"
                 },
                 "disponibilidad":{
                     "copias":3,
@@ -17,11 +17,11 @@
             },
             {
                 "isbn":"978-0-262",
-                "genero":"tecnologia",
-                "titulo":"introduccion a la inteligencia artificial",
+                "genero":"Tecnologia",
+                "titulo":"Introduccion a la Inteligencia Artificial",
                 "autor":{
-                    "nombre":"susan mitchell",
-                    "nacionalidad":"estadounidense"
+                    "nombre":"Susan Mitchell",
+                    "nacionalidad":"Estadounidense"
                 },
                 "disponibilidad":{
                     "copias":5,
