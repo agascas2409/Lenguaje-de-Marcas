@@ -19,12 +19,11 @@ console.log(`Tiene armadura: ${armadura}`);
 
 //Héroe después del combate
 nivel++;
-puntos_de_vida -= 30;
+puntosVida -= 30;
 //Volvemos a mostrar por pantalla
-console.log(`Estado del héroe después del combate: /n Nombre: ${nombre} /n Nivel: ${nivel} /n Puntos de vida: ${puntos_de_vida} /n Arma principal: ${arma_principal} /n Arma secundaria: ${arma_secundaria} /n Tiene armadura: ${armadura}`);
-
+console.log(`Estado del héroe después del combate: \n Nombre: ${nombre}  \n Nivel: ${nivel} \n Puntos de vida: ${puntosVida} \n Arma principal: ${arma_principal} \n Arma secundaria: ${arma_secundaria} \n Tiene armadura: ${armadura}`);
 //Cambios
-let nivelCadena = nivel.toString;
+let nivelCadena = nivel.toString();
 let puntosFloat = parseFloat(puntosVida);
 console.log(`Nivel Cadena: ${nivelCadena}`);
 console.log(`Puntos float: ${puntosFloat}`);
