@@ -9,4 +9,4 @@ cofres.forEach((monedas) => {monedasTotales += monedas});
 console.log(`Monedas totales: ${monedasTotales}`);
 
 atuendos.push(`Mago`);
-atuendos.forEach((atuendo, indice) => {console.log(`${indice}: ${atuendo}`); });
+atuendos.forEach((atuendo, indice) => {console.log(`Atuendo ${indice}: ${atuendo}`); });

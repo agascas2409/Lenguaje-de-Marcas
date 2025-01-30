@@ -24,6 +24,6 @@ switch(dificultad){
         break;
     default:
         console.log(`No sabes jugar`);
-}
+};
 
 console.log(`Experiencia Actual: ${experienciaActual}`);
