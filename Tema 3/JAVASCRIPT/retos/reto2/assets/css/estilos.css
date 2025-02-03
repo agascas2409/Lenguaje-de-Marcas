@@ -1,6 +1,7 @@
 .contenedor {
     margin: auto;
-    width: 400px;
+    width: 600px;
+    background-image: url(../img/fondo.png);
 }
 
 .imagenes {

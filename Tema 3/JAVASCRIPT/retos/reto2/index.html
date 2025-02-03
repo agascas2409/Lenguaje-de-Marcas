@@ -11,7 +11,7 @@
             // Almacenamos los nombres de las imágenes en una letiable compleja.
             // Se denomina tabla y se accede a los valores mediante el indice (empezando por 0).
             // Por ejemplo: imagenes[0] contiene "rajoy.png"
-            let imagenes = ["./assets/img/cine.jpeg", "./assets/img/reloj.jpeg", "./assets/img/imagenes.jpeg"];
+            let imagenes = ["./assets/img/cine.jpeg", "./assets/img/reloj.jpeg", "./assets/img/imagenes.jpeg", "./assets/img/mente.jpeg"];
             // Almacenamos el indice de la imagen que esta en cada recuadro.
             let cuadro = [ 0, 0, 0, 0];
             // Almacenamos el setInterval de cada recuadro de forma independiente.
@@ -35,7 +35,7 @@
                         // Si lo multiplico por tres el dominio pasa a ser [0-3)
                         // Esta operación genera decimales, para eliminarlos se usa Math.floor()
                     for(i in cuadro)
-                        cuadro[i] = Math.floor(Math.random() * 3);
+                        cuadro[i] = Math.floor(Math.random() * 4);
                     
                     // Genera los intervalos para que cada recuadro cambie de imagen cada centésima de segundo.
                     intervaloRuleta[0] = setInterval(function() { cambiaImagen(0);}, 100);
@@ -44,7 +44,7 @@
                     intervaloRuleta[3] = setInterval(function() { cambiaImagen(3);}, 20);
                     
                     // Al empezar están cambiando los tres recuadros.
-                    corriendo = 3;
+                    corriendo = 4;
                 }
             }
             
@@ -101,9 +101,10 @@
     <body onload="cambiaSombras();">
         <div class="contenedor">
             <div class="imagenes">
-                <img id="imag2" src="./assets/img/cine.jpeg">
-                <img id="imag1" src="./assets/img/reloj.jpeg">
-                <img id="imag0" src="./assets/img/imagenes.jpeg">
+                <img id="imag3" src="./assets/img/cine.jpeg">
+                <img id="imag2" src="./assets/img/reloj.jpeg">
+                <img id="imag1" src="./assets/img/imagenes.jpeg">
+                <img id="imag0" src="./assets/img/mente.jpeg">
             </div>
             <div class="botones">
                 <div class="boton" id="iniciar" onclick="ruleta();">Iniciar</div>
