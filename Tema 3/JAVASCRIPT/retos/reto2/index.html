@@ -11,11 +11,11 @@
             // Almacenamos los nombres de las imágenes en una letiable compleja.
             // Se denomina tabla y se accede a los valores mediante el indice (empezando por 0).
             // Por ejemplo: imagenes[0] contiene "rajoy.png"
-            let imagenes = ["rajoy.png", "leon.png", "manzana.png"];
+            let imagenes = ["./assets/img/cine.jpeg", "./assets/img/reloj.jpeg", "./assets/img/imagenes.jpeg"];
             // Almacenamos el indice de la imagen que esta en cada recuadro.
-            let cuadro = [ 0, 0, 0];
+            let cuadro = [ 0, 0, 0, 0];
             // Almacenamos el setInterval de cada recuadro de forma independiente.
-            let intervaloRuleta = [ null, null, null ];
+            let intervaloRuleta = [ null, null, null, null ];
             // letiable donde almacenamos el numero de recuadros que están cambiando.
             let corriendo = 0;
             // Intervalo del cambio de sombras.
@@ -39,8 +39,9 @@
                     
                     // Genera los intervalos para que cada recuadro cambie de imagen cada centésima de segundo.
                     intervaloRuleta[0] = setInterval(function() { cambiaImagen(0);}, 100);
-                    intervaloRuleta[1] = setInterval(function() { cambiaImagen(1);}, 50);
-                    intervaloRuleta[2] = setInterval(function() { cambiaImagen(2);}, 10);
+                    intervaloRuleta[1] = setInterval(function() { cambiaImagen(1);}, 75);
+                    intervaloRuleta[2] = setInterval(function() { cambiaImagen(2);}, 50);
+                    intervaloRuleta[3] = setInterval(function() { cambiaImagen(3);}, 20);
                     
                     // Al empezar están cambiando los tres recuadros.
                     corriendo = 3;
