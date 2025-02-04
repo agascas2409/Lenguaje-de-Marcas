@@ -63,7 +63,7 @@
             function paraRuleta() {
                 // Solo para si hay alguna corriendo.
                 if (corriendo > 0) {
-                    // Como las tablas empiezan en cero, el ultimo valor es 2.
+                    // Como las tablas empiezan en cero, el ultimo valor es 3.
                     // Restamos uno a los recuadros corriendo.
                     corriendo = corriendo - 1;
                     // Paramos el intervalo para que deje de cambiar la imagen del recuadro.
@@ -77,6 +77,7 @@
 
             function parar2Ruleta(){
                 if(corriendo > 0){
+                    //Este metodo es igual que paraRuleta solo que añadiendo el for para que se paren dos imagenes
                     for(let i = 0; i < 2; i++){
                         corriendo -= 1;
                         clearInterval(intervaloRuleta[corriendo])
