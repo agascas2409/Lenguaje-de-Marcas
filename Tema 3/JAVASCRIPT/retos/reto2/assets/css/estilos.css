@@ -9,7 +9,7 @@
     border: 1px solid black;
     /* Bordes redondeados. */
     border-radius: 30px;
-    width: 370px;
+    width: 580px;
     text-align: center;
     /* Sombra. */
     /*box-shadow: 2px 2px 5px #66CCFF inset;*/
@@ -23,7 +23,7 @@ img {
 }
 
 .botones {
-    width: 370px;
+    width: 580px;
     text-align: center;
 }
 

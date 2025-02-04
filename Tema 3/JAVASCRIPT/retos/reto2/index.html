@@ -15,7 +15,7 @@
             // Almacenamos el indice de la imagen que esta en cada recuadro.
             let cuadro = [ 0, 0, 0, 0];
             // Almacenamos el setInterval de cada recuadro de forma independiente.
-            let intervaloRuleta = [ null, null, null, null ];
+            let intervaloRuleta = [ null, null, null, null];
             // letiable donde almacenamos el numero de recuadros que están cambiando.
             let corriendo = 0;
             // Intervalo del cambio de sombras.
@@ -38,10 +38,10 @@
                         cuadro[i] = Math.floor(Math.random() * 4);
                     
                     // Genera los intervalos para que cada recuadro cambie de imagen cada centésima de segundo.
-                    intervaloRuleta[0] = setInterval(function() { cambiaImagen(0);}, 100);
-                    intervaloRuleta[1] = setInterval(function() { cambiaImagen(1);}, 75);
+                    intervaloRuleta[0] = setInterval(function() { cambiaImagen(0);}, 50);
+                    intervaloRuleta[1] = setInterval(function() { cambiaImagen(1);}, 50);
                     intervaloRuleta[2] = setInterval(function() { cambiaImagen(2);}, 50);
-                    intervaloRuleta[3] = setInterval(function() { cambiaImagen(3);}, 20);
+                    intervaloRuleta[3] = setInterval(function() { cambiaImagen(3);}, 50);
                     
                     // Al empezar están cambiando los tres recuadros.
                     corriendo = 4;
@@ -52,7 +52,7 @@
             function cambiaImagen(x) {
                 // Si la imagen es la última paso a la primera.
                 //  Si no cambia al asiguiente imagen.
-                if(cuadro[x]>=2) cuadro[x]=0;
+                if(cuadro[x]>=3) cuadro[x]=0;
                     else cuadro[x] = cuadro[x]+1;
                 
                 // Cambia la propiedad src de la imagen correspondiente en el html.
@@ -72,6 +72,19 @@
                     // Si hemos parado el último activamos el efecto de las sombras.
                     if (corriendo==0) 
                         cambiaSombras();
+                }
+            }
+
+            function parar2Ruleta(){
+                if(corriendo > 0){
+                    for(let i = 0; i < 2; i++){
+                        corriendo -= 1;
+                        clearInterval(intervaloRuleta[corriendo])
+                        cambiaSombras();
+                    }
+                    if(corriendo == 0){
+                        cambiaSombras();
+                    }
                 }
             }
             
@@ -95,6 +108,7 @@
                  document.getElementById("imag0").style['boxShadow']=estilo;
                  document.getElementById("imag1").style['boxShadow']=estilo;
                  document.getElementById("imag2").style['boxShadow']=estilo;
+                 document.getElementById("imag3").style['boxShadow']=estilo;
             }
         </script>
     </head>
@@ -109,6 +123,7 @@
             <div class="botones">
                 <div class="boton" id="iniciar" onclick="ruleta();">Iniciar</div>
                 <div class="boton" id="parar" onclick="paraRuleta();">Parar</div>
+                <div class="boton" id="parar" onclick="parar2Ruleta();">Parar 2</div>
             </div>
         </div>
     </body>
