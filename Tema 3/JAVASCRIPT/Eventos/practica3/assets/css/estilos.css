@@ -1,3 +1,6 @@
+h1{
+    text-align: center;
+}
 .caja{
 	border: solid thin;
 	padding: 10px;
@@ -5,30 +8,37 @@
 	grid-template-areas: "click imagen1 imagen2"
                         "dobleClick boton cursor";
 	text-align: center;
-	gap: 15px;
+	gap: 5px;
     width: 90%;
+    margin: auto;
 }
 .click{
     grid-area: click;
-    height: 150px;
+    height: 250px;
+    background-color: rgb(230, 224, 224);
 }
 .imagen1{
     grid-area: imagen1;
-    height: 150px;
+    height: 250px;
+    background-color: rgb(230, 224, 224);
 }
 .imagen2{
     grid-area: imagen2;
-    height: 150px;
+    height: 250px;
+    background-color: rgb(230, 224, 224);
 }
 .dobleClick{
     grid-area: dobleClick;
-    height: 150px;
+    height: 250px;
+    background-color: rgb(230, 224, 224);
 }
 .boton{
     grid-area: boton;
-    height: 150px;
+    height: 250px;
+    background-color: rgb(230, 224, 224);
 }
 .cursor{
     grid-area: cursor;
-    height: 150px;
+    height: 250px;
+    background-color: rgb(230, 224, 224);
 }
