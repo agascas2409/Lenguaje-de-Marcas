@@ -1,0 +1,34 @@
+.caja{
+	border: solid thin;
+	padding: 10px;
+	display: grid;
+	grid-template-areas: "click imagen1 imagen2"
+                        "dobleClick boton cursor";
+	text-align: center;
+	gap: 15px;
+    width: 90%;
+}
+.click{
+    grid-area: click;
+    height: 150px;
+}
+.imagen1{
+    grid-area: imagen1;
+    height: 150px;
+}
+.imagen2{
+    grid-area: imagen2;
+    height: 150px;
+}
+.dobleClick{
+    grid-area: dobleClick;
+    height: 150px;
+}
+.boton{
+    grid-area: boton;
+    height: 150px;
+}
+.cursor{
+    grid-area: cursor;
+    height: 150px;
+}
