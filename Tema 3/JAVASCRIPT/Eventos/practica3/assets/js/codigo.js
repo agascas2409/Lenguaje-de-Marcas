@@ -17,7 +17,7 @@ function mensaje(){
 a1.addEventListener("click", () => alert('Has realizado un click'));
 
 //Se calcula el mayor de dos numeros introducidos
-a2.addEventListener("click", numeroMayor());
+a2.addEventListener("click", numeroMayor);
 function numeroMayor(){
     const num1 = parseInt(prompt("Introduce un número: "));
     const num2 = parseInt(prompt("Introduce un número: "));
@@ -33,7 +33,7 @@ function numeroMayor(){
 };
 
 //Se muestra por pantalla si un numero es par o impar cuando el cursor deje la imagen
-a3.addEventListener("mouseleave", parOImpar());
+a3.addEventListener("mouseleave", parOImpar);
 function parOImpar(){
     const num = parseInt(prompt("Introduce un número: "));
     if(!isNaN(num)){
@@ -52,7 +52,7 @@ a4.addEventListener("dblclick", () => alert('Has realizado un doble click'));
 a5.addEventListener("click", () => alert('Has realizado un click'));
 
 //Al entrar el cursor en la capa se solicitan dos numeros y se realiza la multiplicacion
-a6.addEventListener("mouseenter", multiplicacion());
+a6.addEventListener("mouseenter", multiplicacion);
 function multiplicacion(){
     const num1 = parseInt(prompt("Introduce un número: "));
     const num2 = parseInt(prompt("Introduce un número: "));
