@@ -11,7 +11,7 @@ const a6 = document.querySelector(".cursor");
 b.addEventListener("Load", mensaje());
 function mensaje(){
     alert("Pagina cargada");
-};
+}
 
 //Al hacer click aparece un texto
 a1.addEventListener("click", () => alert('Has realizado un click'));
@@ -30,7 +30,7 @@ function numeroMayor(){
     } else {
         alert('El número no es valido');
     }
-};
+}
 
 //Se muestra por pantalla si un numero es par o impar cuando el cursor deje la imagen
 a3.addEventListener("mouseleave", parOImpar);
@@ -43,13 +43,17 @@ function parOImpar(){
             alert('El número es impar');
         }
     }
-};
+}
 
 //Al hacer docle click aparece un texto
 a4.addEventListener("dblclick", () => alert('Has realizado un doble click'));
 
 //Al pulsar el boton muestra cuantas veces se ha hecho click
-a5.addEventListener("click", () => alert('Has realizado un click'));
+a5.addEventListener("click", contarClick);
+function contarClick(){
+    i++;
+    alert("Has hecho click: " + a + " veces");
+}
 
 //Al entrar el cursor en la capa se solicitan dos numeros y se realiza la multiplicacion
 a6.addEventListener("mouseenter", multiplicacion);
@@ -62,4 +66,4 @@ function multiplicacion(){
     } else {
         alert('El número no es valido');
     }
-};
+}
