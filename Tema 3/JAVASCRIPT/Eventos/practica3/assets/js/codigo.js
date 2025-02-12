@@ -50,9 +50,10 @@ a4.addEventListener("dblclick", () => alert('Has realizado un doble click'));
 
 //Al pulsar el boton muestra cuantas veces se ha hecho click
 a5.addEventListener("click", contarClick);
+let i = 0;
 function contarClick(){
     i++;
-    alert("Has hecho click: " + a + " veces");
+    alert("Has hecho click: " + i + " veces");
 }
 
 //Al entrar el cursor en la capa se solicitan dos numeros y se realiza la multiplicacion
