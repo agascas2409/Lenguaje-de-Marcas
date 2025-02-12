@@ -34,7 +34,6 @@ h1{
 }
 .boton{
     grid-area: boton;
-    margin: auto;
     height: 250px;
     background-color: rgb(230, 224, 224);
 }
