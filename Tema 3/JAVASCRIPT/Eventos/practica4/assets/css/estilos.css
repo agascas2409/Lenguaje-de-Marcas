@@ -1,0 +1,42 @@
+.caja{
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+	grid-template-areas: 
+    "raton negro imagen"
+    "negro edad negro"
+    "cambiarColor negro cambiarEstilo";
+    gap: 5px;
+}
+.caja div{
+    border: solid thin;
+    height: 250px;
+    width: 90%;
+    margin: auto;
+}
+.negro{
+    grid-area: "negro";
+    background-color: black;
+}
+.imagen{
+    grid-area: "imagen";
+    align-content: center;
+}
+img{
+    width: 200px;
+}
+.raton{
+    align-content: center;
+    grid-area: "raton";
+}
+.edad{
+    grid-area: "edad";
+}
+.cambiarColor{
+    align-content: center;
+    grid-area: "cambiarColor";
+}
+.cambiarEstilo{
+    align-content: center;
+    grid-area: "cambiarEstilo";
+}
