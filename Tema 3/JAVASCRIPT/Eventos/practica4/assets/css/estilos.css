@@ -40,3 +40,7 @@ img{
     align-content: center;
     grid-area: "cambiarEstilo";
 }
+.rojo {
+    grid-area: "negro";
+    background-color: red;
+}

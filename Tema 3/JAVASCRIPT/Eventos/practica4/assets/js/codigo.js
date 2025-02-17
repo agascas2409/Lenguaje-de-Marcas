@@ -29,17 +29,26 @@ function cambiarImagen(nombreImagen){
 //Comprueba que la edad esta en el rango
 //No funciona
 boton.addEventListener("click", () => numero(num, texto));
-function numero(num) {
+function numero(num, texto) {
     let a=parseInt(num.value);
     if (isNaN(num)){
         texto.textContent = 'Introduce un número valido';
     } else {
-        if(num >= 1 && num <= 100){
+        if(a >= 1 && a <= 100){
             texto.textContent = 'Numero correcto';
         } else {
             texto.textContent = 'Introduce un valor entre 1 y 100';
         }
     }
+    return texto;
 }
 
 //Cambia fondo negro o rojo
+a4.addEventListener("click", cambiarFondo());
+function cambiarFondo(){
+    a6.forEach((fondo, index) => {
+        fondo.addEventListener();
+    });
+}
+
+//
