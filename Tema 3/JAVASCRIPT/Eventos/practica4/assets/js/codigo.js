@@ -44,11 +44,9 @@ function numero(num, texto) {
 }
 
 //Cambia fondo negro o rojo
-a4.addEventListener("click", cambiarFondo());
-function cambiarFondo(){
-    a6.forEach((fondo, index) => {
-        fondo.addEventListener();
-    });
+a4.addEventListener("click", () => cambiarFondo(a6));
+function cambiarFondo(a6){
+    a6.forEach((fondo) => {fondo.classList.toggle("rojo")});
 }
 
 //
