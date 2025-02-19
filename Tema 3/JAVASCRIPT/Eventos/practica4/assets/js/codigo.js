@@ -54,4 +54,19 @@ function cambiarFondo(a6){
 
 //Capa 5
 const a5 = document.querySelector(".cambiarEstilo");
+const boton1 = document.querySelector(".boton1");
+const boton2 = document.querySelector(".boton2");
+const boton3 = document.querySelector(".boton3");
 //Cambiar estilo segun el boton que se pulse
+boton1.addEventListener("click", () => {
+    a5.style.color = "white";
+    a5.style.backgroundColor = "black";
+});
+boton2.addEventListener("click", () => {
+    a5.style.color = "black";
+    a5.style.backgroundColor = "white";
+});
+boton3.addEventListener("click", () => {
+    a5.style.color = "red";
+    a5.style.backgroundColor = "grey";
+});
