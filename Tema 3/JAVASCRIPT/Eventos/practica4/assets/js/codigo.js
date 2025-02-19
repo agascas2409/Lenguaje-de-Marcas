@@ -1,6 +1,7 @@
 //Creo todas las constantes de cada capa
 const a1 = document.querySelector(".color");
 const a2 = document.querySelector(".imagen");
+const img = document.querySelector(".img");
 const a4 = document.querySelector(".cambiarColor");
 const a5 = document.querySelector(".cambiarEstilo");
 const a6 = document.querySelectorAll(".negro");
@@ -16,13 +17,13 @@ a1.addEventListener("mouseleave", () => {a1.style.color="black"});
 
 //Cambiar la imagen cuando pase el cursor
 //No funciona
-const nombreImagen = img.src.split("/").pop();
-a2.addEventListener("mouseenter", () => cambiarImagen(nombreImagen));
-function cambiarImagen(nombreImagen){
-    if (nombreImagen === "corazon.png"){
-        nombreImagen = img.src = "./assets/img/rosa.jpg";
+a2.addEventListener("mouseenterr", () => cambiarImagen(img));
+function cambiarImagen(img){   
+    const nombreImagen = img.src.split("/").pop();
+    if (nombreImagen == "corazon.png"){
+        img.src = "./assets/img/rosa.jpg";
     } else {
-        nombreImagen = img.src = "./assets/img/corazon.png";
+        img.src = "./assets/img/corazon.png";
     }
 }
 
