@@ -11,22 +11,6 @@ const boton = document.querySelector(".botonEdad");
 const texto = document.querySelector(".texto");
 const num = document.querySelector("#num");
 
-//Cambia el color el parrafo al entrar y salir el raton
-a1.addEventListener("mouseenter", () => {a1.style.color="red"});
-a1.addEventListener("mouseleave", () => {a1.style.color="black"});
-
-//Cambiar la imagen cuando pase el cursor
-//No funciona
-a2.addEventListener("mouseenterr", () => cambiarImagen(img));
-function cambiarImagen(img){   
-    const nombreImagen = img.src.split("/").pop();
-    if (nombreImagen == "corazon.png"){
-        img.src = "./assets/img/rosa.jpg";
-    } else {
-        img.src = "./assets/img/corazon.png";
-    }
-}
-
 //Comprueba que la edad esta en el rango
 //No funciona
 boton.addEventListener("click", () => numero(num, texto));
@@ -43,11 +27,3 @@ function numero(num, texto) {
     }
     return texto;
 }
-
-//Cambia fondo negro o rojo
-a4.addEventListener("click", () => cambiarFondo(a6));
-function cambiarFondo(a6){
-    a6.forEach((fondo) => {fondo.classList.toggle("rojo")});
-}
-
-//

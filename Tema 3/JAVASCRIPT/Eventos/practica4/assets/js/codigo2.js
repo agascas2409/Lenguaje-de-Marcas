@@ -21,9 +21,27 @@ function cambiarImagen(img){
 //Capa 3
 const a3 = document.querySelector(".edad");
 const boton = document.querySelector(".botonEdad");
-const texto = document.querySelector(".texto");
-const num = document.querySelector("#num");
 //Comprueba que la edad esta en el rango
+boton.addEventListener("click", () => calcular());
+function calcular(){
+    const texto = document.querySelector(".texto");
+    texto.textContent = "";
+    const num = document.querySelector("#num");
+    let edad = parseInt(num.value);
+
+    if(isNaN(edad.value)){
+        texto.textContent = "Introduce un número válido";
+        a3.style.color = "red";
+    } else {
+        if (edad.value >= 1 && edad.value <= 100){
+            texto.textContent = "Número correcto";
+            a3.style.color = "green";
+        }  else {
+            texto.textContent = "Introduce un valor entre 1 y 100";
+            a3.style.color = "red";
+        }
+    }
+}
 
 //Capa 4
 const a4 = document.querySelector(".cambiarColor");
