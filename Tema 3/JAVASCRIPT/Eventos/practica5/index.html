@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Practica 5</title>
+  <link rel="stylesheet" href="./assets/css/estilos.css" type="text/css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <div>
+        <label for="num1">Numero 1:</label>
+        <input type="text" id="num1" name="num1" required>
+    </div>
+    <div>
+        <label for="num2">Numero 2:</label>
+        <input type="text" id="num2" name="num2" required>
+    </div>
+    <div>
+        <label for="operacion">Operación: </label>
+        <select id="operacion" name="operacion">
+            <option value="suma" class="suma">Suma</option>
+            <option value="resta" class="resta">Resta</option>
+            <option value="multiplicacion" class="multiplicacion">Multiplicación</option>
+            <option value="division" class="division">Division</option>
+        </select>
+    </div>
+    <div>
+        <label for="resultado">Resultado:</label>
+        <input type="text" id="resultado" name="resultado" readonly>
+    </div>
+    <div>
+        <button class="boton">Calcular</button>
+    </div>
+    <script type="text/javascript" src="./assets/js/codigo.js"></script>
+</body>
