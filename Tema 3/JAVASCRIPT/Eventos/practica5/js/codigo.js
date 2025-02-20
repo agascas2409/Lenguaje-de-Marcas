@@ -14,22 +14,27 @@ boton.addEventListener("click", () => calcular(num1, num2, operacion));
 function calcular(num1, num2, operacion){
     let num1 = parseFloat(num1.value);
     let num2 = parseFloat(num2.value);
+    let resultadoOperacion;
     if(isNaN(num1) || isNaN(num2)){
         resultado.textContent("error");
         resultado.style.color = "red";
     } else {
         switch(operacion){
             case suma:
-                resultado.textContent(`${num1 + num2}`);
+                resultadoOperacion = num1 + num2;
+                resultado.value = `${resultadoOperacion}`;
                 break;
             case resta:
-                resultado.textContent(`${num1 - num2}`);
+                resultadoOperacion = num1 - num2;
+                resultado.value = `${resultadoOperacion}`;
                 break;
             case multiplicacion:
-                resultado.textContent(`${num1 * num2}`);
+                resultadoOperacion = num1 * num2;
+                resultado.value = `${resultadoOperacion}`;
                 break;
             case division:
-                resultado.textContent(`${num1 / num2}`);
+                resultadoOperacion = num1 / num2;
+                resultado.value = `${resultadoOperacion}`;
                 break;
         }
     }
