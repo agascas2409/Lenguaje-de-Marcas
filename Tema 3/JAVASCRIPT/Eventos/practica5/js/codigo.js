@@ -5,7 +5,7 @@ const operacion = document.querySelector("#operacion");
 const resultado = document.querySelector("#resultado");
 const boton = document.querySelector(".boton");
 
-boton.addEventListener("click", () => calcular(num1, num2, operacion.value);
+boton.addEventListener("click", () => calcular(num1, num2, operacion.value));
 
 function calcular(num1, num2, operacion){
     let num1 = parseFloat(num1.value);
