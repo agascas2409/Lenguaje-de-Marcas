@@ -1,0 +1,20 @@
+div{
+    margin-bottom: 15px;
+}
+
+.boton{
+    background-color: rgb(100, 213, 100);
+    color: white;
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+body{
+    border-style: solid;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    margin: auto;
+    margin-top: 5px;
+}
