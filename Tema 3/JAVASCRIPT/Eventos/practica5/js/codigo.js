@@ -13,7 +13,8 @@ function calcular(numero1, numero2, operacion, resultado){
     let resultadoOperacion;
     switch(operacion){
         case 'suma':
-            resultado.value = `${num1 + num2}`;
+            resultadoOperacion = num1 + num2;
+            resultado.value = `${resultadoOperacion}`;
             break;
         case 'resta':
             resultadoOperacion = num1 - num2;
