@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Practica 5</title>
+  <title>Procesar un JSON</title>
   <link rel="stylesheet" href="./css/estilos.css" type="text/css">
 </head>
 <body>
     <h1>Buscador de Pokémon</h1>
     <div>
-        <input type="text" id="buscar" name="buscar" required>
-        <button type="button">Buscar</button>
+        <input type="text" id="pokemonName" name="pokemonName" required>
+        <button type="button" id="buscar">Buscar</button>
     </div>
     <div>
         <table class="pokemon">
@@ -20,10 +20,10 @@
                 <th>Tipos</th>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="nombre"></td>
+                <td class="imagen"><img src=""></td>
+                <td class="altura"></td>
+                <td class="tipos"></td>
             </tr>
         </table>
     </div>
