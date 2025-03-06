@@ -15,9 +15,10 @@ async function buscarPelicula() {
     const respuesta = await fetch(url);
     //Procesamos la respuesta a un objeto data javascript
     const data = await respuesta.json();
-    
+
     if (data.Title) {
         //Mostramos los datos en las casillas correspondientes
+        titulo.style.color = "white";
         titulo.innerHTML = `<p>${data.Title}</p>`;
         anyo.innerHTML = `<p>${data.Year}</p>`;
         duracion.innerHTML = `<p>${data.Runtime}</p>`;
