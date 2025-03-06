@@ -10,12 +10,13 @@ async function buscarPokemon() {
 
     const namePokemon = document.querySelector("#pokemonName").value;
     //Creamos la url colocando el texto de búsqueda en su sitio
-    const url = `htyps://pokeapi.co/api/v2/pokemon/${namePokemon}`;
+    const url = `https://pokeapi.co/api/v2/pokemon/${namePokemon}`;
 
     const nombre = document.querySelector(".nombre");
     const imagen = document.querySelector(".imagen");
-    const altura = document.querySelector(".nombre");
-    const tipo = document.querySelector(".nombre");
+    const altura = document.querySelector(".altura");
+    const tipo = document.querySelector(".tipos");
+    tipo.innerHTML=``;
 
     //Capturamos los posibles errores
     try {

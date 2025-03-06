@@ -1,4 +1,5 @@
 body{
+    width: 100%;
     text-align: center;
     background-color: lightskyblue;
     margin: 10px;
@@ -12,8 +13,10 @@ h1{
     width: 350px;
     margin: auto;
 }
-table, th, td{
-    margin: auto;
-    padding: 10px;
-    border: 1px solid;
+table{
+    margin-top: 20px;
+    width: 100%;
+}
+th{
+    border: solid thin;
 }
