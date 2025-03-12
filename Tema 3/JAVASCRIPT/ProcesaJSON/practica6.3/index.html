@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JSON Rick And Morty</title>
+  <link rel="stylesheet" href="./assets/css/estilos.css" type="text/css">
+</head>
+<body>
+    <h1>Rick And Morty</h1>
+    <div class="buscador">
+        <label for="personaje">Personaje: </label>
+        <select id="personaje" name="personaje">
+            <option value="1" class="rick">Rick Sanchez</option>
+            <option value="2" class="morty">Morty Smith</option>
+            <option value="3" class="summer">Summer Smith</option>
+            <option value="4" class="beth">Beth Smith</option>
+            <option value="5" class="jerry">Jerry Smith</option>
+        </select>
+        <button type="button" id="buscar">Buscar</button>
+    </div>
+    <div>
+        <table class="tablaRickYMorty">
+            <tr>
+                <th>Nombre</th>
+                <td class="nombre"></td>
+            </tr>
+            <tr>
+                <th>Especie</th>
+                <td class="especie"></td>
+            </tr>
+            <tr>
+                <th>Género</th>
+                <td class="genero"></td>
+            </tr>
+            <tr>
+                <th>Imagen</th>
+                <td><img class="imagen" src=""></td>
+            </tr>
+            <tr>
+                <th>Episodios</th>
+                <td class="episodios"></td>
+            </tr>
+        </table>
+    </div>
+
+    <script type="text/javascript" src="./assets/js/codigo.js"></script>
+</body>
+</html>

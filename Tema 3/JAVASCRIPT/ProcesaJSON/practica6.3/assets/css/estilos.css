@@ -1,0 +1,23 @@
+body{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+.buscador{
+    padding: 10px;
+    width: 350px;
+    margin: auto;
+}
+table{
+    margin-top: 40px;
+    width: 75%;
+    margin: auto;
+}
+th{
+    border: solid thin;
+    width: 20%;
+}
+td{
+    border: solid thin;
+    height: 100px;
+}
