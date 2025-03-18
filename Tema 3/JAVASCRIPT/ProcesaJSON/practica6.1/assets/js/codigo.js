@@ -33,12 +33,11 @@ async function buscarPelicula() {
 
     const medio = document.querySelector(".medio");
     const valor = document.querySelector(".valor");
-    const valoracion = document.querySelector(".valoracion");
+    const valoracion = document.querySelector("#valoracion");
     valoracion.innerHTML = ``;
 
     for (let index = 0; index < data.Ratings.length; index++) {
         valoracion.innerHTML = valoracion.innerHTML + `<option>${element.Ratings[index].Source}</option>`;
     }
-
 
 }
