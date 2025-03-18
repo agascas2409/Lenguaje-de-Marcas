@@ -51,9 +51,8 @@ async function buscarEpisodio() {
     //Creamos la url colocando el texto de búsqueda en su sitio
     const url = `https://rickandmortyapi.com/api/episode/${aBuscar}`;
 
-    const foto = document.querySelector(".foto");
-    const personajesEpisodio = document.querySelector(".personajesEpisodio");
-    personajesEpisodio.innerHTML="";
+    const tablaPersonajes = document.querySelector(".tablaEpisodios");
+    tablaPersonajes.innerHTML="";
 
     //Obtenemos la respuesta
     const respuesta = await fetch(url);
@@ -61,12 +60,14 @@ async function buscarEpisodio() {
     const data = await respuesta.json();
 
     try {
-        //No existe ninguna imagen en el json de episodios
-        foto.src=`${data.url}`;
         for (let index = 0; index < data.characters.length; index++) {
             const respuesta1 = await fetch(data.characters[index]);
             const data2 = await respuesta1.json();
-            personajesEpisodio.innerHTML = personajesEpisodio.innerHTML + `<li>${data2.name}</li>`;
+            tablaPersonajes.innerHTML = tablaPersonajes.innerHTML + `
+            <tr>
+                <td>${data2.name}</td>
+                <td><img src="${data2.image}"</td>
+            </tr>`;
         }
 
     } catch (error) {
