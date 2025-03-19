@@ -17,6 +17,7 @@ const desplegable = new Map();
 
 async function buscarPalabra() {
 
+    //Hay que tener cuidado con las palabras que se introducen son sensibles a tilde
     const aBuscar = document.querySelector("#palabra").value;
     //Creamos la url colocando el texto de búsqueda en su sitio
     const url = `https://rae-api.com/api/words/${aBuscar}`;
@@ -35,7 +36,6 @@ async function buscarPalabra() {
             palabraBuscada.innerHTML = `${fichero.data.word}`;
             palabraBuscada.style.color = `green`;
         }
-            
         
         definiciones.innerHTML="";
         //Utilizammos un for para guardar el numero de definiciones que tiene la palabra buscada
