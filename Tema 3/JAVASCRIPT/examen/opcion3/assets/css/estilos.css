@@ -1,6 +1,7 @@
 body{
     text-align: center;
     margin: 0px;
+    width: 100%;
 }
 h1{
     background-color: blue;
@@ -14,4 +15,10 @@ div, p{
 .rae{
     padding: 15px;
     text-align: left;
+}
+.buscador{
+    border: solid thin;
+    padding: 10px;
+    width: 35%;
+    margin: 15px auto 15px auto;
 }

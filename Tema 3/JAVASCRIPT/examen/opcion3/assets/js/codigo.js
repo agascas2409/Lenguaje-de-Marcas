@@ -7,7 +7,8 @@ const definiciones = document.querySelector("#definiciones");
 definiciones.addEventListener("change", actualizarDesplegable);
 definiciones.innerHTML="";
 
-//Declaramos donde vamos a mostrar las definiciones
+//Declaramos donde vamos a mostrar las informacion
+const palabraBuscada = document.querySelector(".palabraBuscada");
 const definicion = document.querySelector(".definicion");
 definicion.innerHTML="";
 
@@ -20,8 +21,6 @@ async function buscarPalabra() {
     //Creamos la url colocando el texto de búsqueda en su sitio
     const url = `https://rae-api.com/api/words/${aBuscar}`;
 
-    const palabraBuscada = document.querySelector(".palabraBuscada");
-
     //Obtenemos la respuesta
     const respuesta = await fetch(url);
     //Procesamos la respuesta a un objeto data javascript
@@ -29,8 +28,15 @@ async function buscarPalabra() {
 
     if (fichero.ok) {
         //Mostramos los datos en las casillas correspondientes
-        palabraBuscada.innerHTML = fichero.data.word;
-        palabraBuscada.style.color = `green`;
+        if (fichero.data.meanings[0].origin) {
+            palabraBuscada.innerHTML = `${fichero.data.word} (${fichero.data.meanings[0].origin.raw})`;
+            palabraBuscada.style.color = `green`;
+        } else {
+            palabraBuscada.innerHTML = `${fichero.data.word}`;
+            palabraBuscada.style.color = `green`;
+        }
+            
+        
         definiciones.innerHTML="";
         //Utilizammos un for para guardar el numero de definiciones que tiene la palabra buscada
         //Ademas de guardarlo en el mapa para despues poder acceder a esa información
