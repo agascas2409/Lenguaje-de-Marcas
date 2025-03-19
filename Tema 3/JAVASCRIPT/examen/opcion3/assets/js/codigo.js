@@ -2,8 +2,8 @@ const button = document.querySelector("#buscar");
 button.addEventListener("click", buscarPalabra);
 
 const definiciones = document.querySelector("#definiciones");
-definiciones.innerHTML="";
 definiciones.addEventListener("change", actualizarDesplegable);
+definiciones.innerHTML="";
 
 const definicion = document.querySelector(".definicion");
 definicion.innerHTML="";
@@ -27,6 +27,7 @@ async function buscarPalabra() {
         //Mostramos los datos en las casillas correspondientes
         palabraBuscada.innerHTML = fichero.data.word;
         palabraBuscada.style.color = `green`;
+        definiciones.innerHTML="";
         for (let index = 0; index < fichero.data.meanings[0].senses.length; index++) {
             definiciones.innerHTML = definiciones.innerHTML + `<option>${index+1}</option>`;
             desplegable.set((index), fichero.data.meanings[0].senses[index].raw);
