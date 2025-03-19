@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Procesar un JSON</title>
+  <link rel="stylesheet" href="./assets/css/estilos.css" type="text/css">
+</head>
+<body>
+    <h1>Consulta del diccionario de la real academia española de la lengua</h1>
+    <div class="buscador">
+        <input type="text" id="palabra" name="palabra" required>
+        <button type="button" id="buscar">Buscar</button>
+    </div>
+    <div>
+        <label for="definiciones">Definición: </label>
+        <select id="definiciones" name="definiciones"></select>
+    </div>
+    <div class="rae">
+        <h3 class="palabraBuscada"></h3>
+        <ul class="definicion"></ul>
+    </div>
+
+    <script type="text/javascript" src="./assets/js/codigo.js"></script>
+</body>
+</html>
