@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aviso SYSTEM "DTD_Externo.dtd">
+<aviso>
+    <de>David</de>
+    <para>Rosalía</para>
+    <cc>Pepe</cc>
+    <mensajes>
+        <mensaje tipo="facebook">Mañana nos vemos en el estudio a las 10.</mensaje>
+        <mensaje tipo="x">Mañana nos vemos en el estudio</mensaje>
+    </mensajes>
+    <direccion>Esto es una direccion</direccion>
+</aviso>
