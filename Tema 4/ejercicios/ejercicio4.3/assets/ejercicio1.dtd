@@ -1,0 +1,8 @@
+<!ELEMENT menu (plato+)>
+<!ELEMENT plato (nombre,categoria,ingredientes,precio)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT ingredientes (ingrediente+)>
+<!ELEMENT ingrediente (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio moneda (USD|EUR|GBP) #REQUIRED>

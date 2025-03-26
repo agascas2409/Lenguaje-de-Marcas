@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menu SYSTEM "assets/ejercicio1.dtd">
+<menu>
+    <plato>
+        <nombre></nombre>
+        <categoria></categoria>
+        <ingredientes>
+            <ingrediente></ingrediente>
+        </ingredientes>
+        <precio moneda="USD"></precio>
+    </plato>
+</menu>

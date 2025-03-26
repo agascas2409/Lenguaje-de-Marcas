@@ -1,0 +1,10 @@
+<!ELEMENT recetas (receta+)>
+<!ELEMENT receta (nombre,ingredientes,preparacion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT ingredientes (ingrediente+)>
+<!ELEMENT ingrediente (nombre-ingrediente)>
+<!ELEMENT nombre-ingrediente (#PCDATA)>
+<!ELEMENT preparacion (paso+)>
+<!ELEMENT paso (#PCDATA)>
+<!ATTLIST receta comensal (adultos|niños) #REQUIRED>
+<!ATTLIST ingrediente cantidad CDATA #REQUIRED>

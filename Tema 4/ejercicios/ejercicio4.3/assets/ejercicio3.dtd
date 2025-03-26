@@ -1,0 +1,9 @@
+<!ELEMENT clientes (cliente+)>
+<!ELEMENT cliente (nombre,telefono,correo,pedidos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT correo (#PCDATA)>
+<!ELEMENT pedidos (pedido+)>
+<!ELEMENT pedido (fecha,plato+)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT plato (#PCDATA)>

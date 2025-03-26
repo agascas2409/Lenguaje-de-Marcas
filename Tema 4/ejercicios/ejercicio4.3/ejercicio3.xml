@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clientes SYSTEM "assets/ejercicio3.dtd">
+<clientes>
+    <cliente>
+        <nombre></nombre>
+        <telefono></telefono>
+        <correo></correo>
+        <pedidos>
+            <pedido>
+                <fecha></fecha>
+                <plato></plato>
+            </pedido>
+        </pedidos>
+    </cliente>
+</clientes>

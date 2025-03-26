@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recetas SYSTEM "assets/ejercicio2.dtd">
+<recetas>
+    <receta comensal="adultos">
+        <nombre></nombre>
+        <ingredientes>
+            <ingrediente cantidad="0">
+                <nombre-ingrediente></nombre-ingrediente>
+            </ingrediente>
+        </ingredientes>
+        <preparacion>
+            <paso></paso>
+        </preparacion>
+    </receta>
+</recetas>
