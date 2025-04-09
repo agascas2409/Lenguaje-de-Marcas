@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos SYSTEM "ejercicio3.dtd">
+<alumnos>
+    <alumno num_alumno="A1" altura="158" sexo="mujer">
+        <nombre>Ana</nombre>
+        <apellidos>Gaspar Castillo</apellidos>
+        <domicilio>C/Jose Palanca, 22</domicilio>
+        <telefono dueño="propio">639246216</telefono>
+        <comentarios></comentarios>
+        <evaluaciones></evaluaciones>
+    </alumno>
+    <alumno num_alumno="A2" sexo="mujer">
+        <nombre>Laura</nombre>
+        <apellidos>Pascual Lopez</apellidos>
+        <domicilio>C/Lagrima</domicilio>
+        <telefono dueño="propio">956203845</telefono>
+        <telefono dueño="madre">621453851</telefono>
+        <equipo>Badminton</equipo>
+        <aficiones>
+            <aficion>Leer</aficion>
+            <aficion>Escuchar musica</aficion>
+        </aficiones>
+        <comentarios>
+            <comentario>Educada y aplicada</comentario>
+        </comentarios>
+        <evaluaciones>
+            <evaluacion numero="primera">8</evaluacion>
+            <evaluacion numero="segunda">9</evaluacion>
+        </evaluaciones>
+    </alumno>
+    <alumno num_alumno="A3">
+        <nombre>Armando</nombre>
+        <apellidos>Morales Rodriguez</apellidos>
+        <domicilio>C/Jose Benitez Rocha</domicilio>
+        <telefono dueño="padre">630214785</telefono>
+        <aficiones>
+            <aficion>Jugar Futbol</aficion>
+        </aficiones>
+        <comentarios>
+            <comentario>Aplicado</comentario>
+            <comentario>Distraido</comentario>
+        </comentarios>
+        <evaluaciones>
+            <evaluacion>6</evaluacion>
+            <evaluacion numero="segunda">7</evaluacion>
+        </evaluaciones>
+    </alumno>
+</alumnos>
