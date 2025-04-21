@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <h2>Productos de Electrónica</h2>
+    <ul>
+      <li>electronica :
+                        Ratón inalámbrico -
+                        25€
+                    </li>
+      <li>ropa :
+                        Sudadera -
+                        45€
+                    </li>
+      <li>electronica :
+                        Teclado mecánico -
+                        75€
+                    </li>
+      <li>casa :
+                        Fregona -
+                        0€
+                    </li>
+    </ul>
+  </body>
+</html>
