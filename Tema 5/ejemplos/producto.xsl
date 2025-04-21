@@ -2,7 +2,6 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 version="1.1">
     <xsl:template match="/">
-        
         <html lang="es">
         <head>
             <meta charset="UTF-8"/>
@@ -21,6 +20,5 @@
             </ul>
         </body>
         </html>
-
     </xsl:template>
 </xsl:stylesheet>
