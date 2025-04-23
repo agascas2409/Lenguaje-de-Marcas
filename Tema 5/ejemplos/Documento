@@ -7,18 +7,10 @@
   <body>
     <h2>Productos de Electrónica</h2>
     <ul>
-      <li>Ratón inalámbrico -
-                        25€
-                    </li>
-      <li>Sudadera -
-                        45€
-                    </li>
-      <li>Teclado mecánico -
-                        75€
-                    </li>
-      <li>Fregona -
-                        0€
-                    </li>
+      <li>Ratón inalámbrico - 25€ </li>
+      <li>Sudadera - 45€ </li>
+      <li>Teclado mecánico - 75€ </li>
+      <li>Fregona - 0€ </li>
     </ul>
   </body>
 </html>

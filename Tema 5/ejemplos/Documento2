@@ -7,22 +7,10 @@
   <body>
     <h2>Productos de Electrónica</h2>
     <ul>
-      <li>electronica :
-                        Ratón inalámbrico -
-                        25€
-                    </li>
-      <li>ropa :
-                        Sudadera -
-                        45€
-                    </li>
-      <li>electronica :
-                        Teclado mecánico -
-                        75€
-                    </li>
-      <li>casa :
-                        Fregona -
-                        0€
-                    </li>
+      <li>electronica : Ratón inalámbrico - 25€ </li>
+      <li>ropa : Sudadera - 45€ </li>
+      <li>electronica : Teclado mecánico - 75€ </li>
+      <li>casa : Fregona - 0€ </li>
     </ul>
   </body>
 </html>
