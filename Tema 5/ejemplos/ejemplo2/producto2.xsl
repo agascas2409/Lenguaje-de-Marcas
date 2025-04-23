@@ -10,15 +10,14 @@
         </head>
         <body>
             <h2>Productos de Electrónica</h2>
-            //Ejemplo con el sort, ordena los productos en orden ascendente del precio
+            <p>Ejemplo con el sort, ordena los productos en orden ascendente del precio</p>
             <ul>
                 <xsl:for-each select="productos/producto">
-                    <xsl:sort select="precio" data-type="number" order="ascending">
+                    <xsl:sort select="precio" data-type="number" order="ascending"/>
                         <li>
                             <xsl:value-of select="nombre"/> -
                             <xsl:value-of select="precio"/>€
                         </li>
-                    </xsl:sort>
                 </xsl:for-each>
             </ul>
         </body>

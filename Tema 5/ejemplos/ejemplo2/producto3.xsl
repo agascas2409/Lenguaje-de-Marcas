@@ -10,15 +10,21 @@
         </head>
         <body>
             <h2>Productos de Electrónica</h2>
-            <p>Ejemplo con el if, solo se muestra los productos que su tipo sea: electronica</p>
+            <p>Ejemplo con el choose, indico si es Caro o Económico</p>
             <ul>
                 <xsl:for-each select="productos/producto">
-                    <xsl:if test="@tipo = 'electronica'">
                         <li>
                             <xsl:value-of select="nombre"/> -
                             <xsl:value-of select="precio"/>€
+                            <xsl:choose>
+                                <xsl:when test="precio &gt; 50">
+                                    - Caro
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    - Económico
+                                </xsl:otherwise>
+                            </xsl:choose>
                         </li>
-                    </xsl:if>
                 </xsl:for-each>
             </ul>
         </body>
