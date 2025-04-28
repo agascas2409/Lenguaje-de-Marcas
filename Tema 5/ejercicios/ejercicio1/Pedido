@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Ejercicio 1</title>
+  </head>
+  <body>
+    <h2>Portatiles</h2>
+    <table>
+      <tr>
+        <td>Peso</td>
+        <td>RAM</td>
+        <td>Disco</td>
+        <td>Precio</td>
+      </tr>
+      <tr>
+        <td>1250</td>
+        <td>2</td>
+        <td>750</td>
+        <td>699</td>
+      </tr>
+    </table>
+    <h2>Tablets</h2>
+    <table>
+      <tr>
+        <td>Plataforma</td>
+        <td>RAM</td>
+        <td>Batería</td>
+      </tr>
+      <tr>
+        <td>iOS</td>
+        <td>4</td>
+        <td>LiIon</td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -35,12 +35,12 @@
                     <td>RAM</td>
                     <td>Batería</td>
                 </tr>
-                <xsl:for-each select="pedido/portatiles/portatil">
-                    <xsl:if test="ram &gt;= 2 and caracteristicas/tamanio &gt;= 7">
+                <xsl:for-each select="pedido/tablets/tablet">
+                    <xsl:if test="caracteristicas/memoria &gt;= 2 and caracteristicas/tamanio &gt;= 7">
                         <tr>
-                            <td><xsl:value-of select="peso"/></td>
-                            <td><xsl:value-of select="ram"/></td>
-                            <td><xsl:value-of select="disco"/></td>
+                            <td><xsl:value-of select="plataforma"/></td>
+                            <td><xsl:value-of select="caracteristicas/memoria"/></td>
+                            <td><xsl:value-of select="caracteristicas/bateria"/></td>
                         </tr>
                     </xsl:if>
                 </xsl:for-each>
