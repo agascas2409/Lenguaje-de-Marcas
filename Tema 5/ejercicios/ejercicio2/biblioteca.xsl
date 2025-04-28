@@ -22,7 +22,7 @@
                     border: 1px solid <xsl:value-of select="biblioteca/css/tabla/colorBorder"/>
                 }
                 .antiguo {
-                    background-color: red;
+                    color: red;
                 }
                 .prestado {
                     background-color: yellow;
