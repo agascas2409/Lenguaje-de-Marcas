@@ -6,7 +6,7 @@
         <head>
             <meta charset="UTF-8"/>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-            <title>Ejercicio 1</title>
+            <title>Ejercicio 2</title>
             <style>
                 body {
                     font-size: <xsl:value-of select="biblioteca/css/body/letra"/> 
@@ -49,11 +49,19 @@
                         </xsl:attribute>
                         <td><xsl:value-of select="titulo"/></td>
                         <td><xsl:value-of select="autor"/></td>
-                        <td><xsl:value-of select="año"/></td>
+                        <td>
+                            <xsl:if test="año &lt; 2000">
+                                <xsl:attribute name="class" select="antiguo"/>
+                            </xsl:if>
+                            <xsl:value-of select="año"/>
+                        </td>
                         <td><xsl:value-of select="categoria"/></td>
                         <xsl:choose>
                             <xsl:when test="@prestado = 'sí'">
-                                <td>Prestado</td>
+                                <td>
+                                <xsl:attribute name="class" select="prestado"/>
+                                Prestado
+                                </td>
                             </xsl:when>
                             <xsl:otherwise>
                                 <td>Disponible</td>
