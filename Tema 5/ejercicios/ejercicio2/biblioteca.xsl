@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 version="1.1">
     <xsl:template match="/">
@@ -68,7 +68,7 @@
                 <xsl:for-each select="biblioteca/libro">
                     <xsl:sort select="autor" order="descending"/>
                     <xsl:if test="año &gt; 1950">
-                    <li><xsl:value-of select="autor"/></li>
+                        <li><xsl:value-of select="autor"/></li>
                     </xsl:if>
                 </xsl:for-each>
             </ol>
