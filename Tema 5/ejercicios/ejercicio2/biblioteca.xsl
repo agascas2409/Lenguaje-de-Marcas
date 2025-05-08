@@ -41,19 +41,20 @@
                 </tr>
                 <xsl:for-each select="biblioteca/libro">
                     <tr>
-                        <xsl:attribute name="class">
-                            <xsl:choose>
-                            <xsl:when test="@prestado='sí'">prestado</xsl:when>
-                            <xsl:when test="año &lt; 2000">antiguo</xsl:when>
-                            </xsl:choose>
-                        </xsl:attribute>
                         <td><xsl:value-of select="titulo"/></td>
                         <td><xsl:value-of select="autor"/></td>
-                        <td><xsl:value-of select="año"/></td>
+                        <xsl:choose>
+                            <xsl:when test="año &lt; 2000'">
+                                <td class="antiguo"><xsl:value-of select="año"/></td>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <td><xsl:value-of select="año"/></td>
+                            </xsl:otherwise>
+                        </xsl:choose>
                         <td><xsl:value-of select="categoria"/></td>
                         <xsl:choose>
                             <xsl:when test="@prestado = 'sí'">
-                                <td>Prestado</td>
+                                <td class="prestado">Prestado</td>
                             </xsl:when>
                             <xsl:otherwise>
                                 <td>Disponible</td>
