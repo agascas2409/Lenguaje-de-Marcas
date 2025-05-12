@@ -8,19 +8,38 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
             <title>Empleados</title>
             <style>
+                h1 {
+                    color: blue;
+                    font-style: bold;
+                    text-align: center;
+                }
+                table{
+                    margin: auto;
+                }
+                table, th, td{
+                    border: solid thin black;
+                    border-collapse: collapse;
+                    padding: 5px;
+                }
+                table th{
+                    font-weight: bolder;
+                    background-color: lightgray;
+                    text-align: left;
+                }
                 .color {
-                    color:blue;
+                    background-color: lightgreen;
                 }
             </style>
         </head>
         <body>
+            <h1>Lista de empleados</h1>
             <table>
                 <tr>
-                    <td>Nombre</td>
-                    <td>Puesto</td>
-                    <td>Departamento</td>
-                    <td>Salario</td>
-                    <td>Antigüedad</td>
+                    <th>Nombre</th>
+                    <th>Puesto</th>
+                    <th>Departamento</th>
+                    <th>Salario</th>
+                    <th>Antigüedad</th>
                 </tr>
                 <xsl:for-each select="empresa/empleado">
                     <xsl:sort select="nombre" order="ascending"/>
