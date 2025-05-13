@@ -13,7 +13,6 @@
                     color: lightgreen;
                     text-align: center;
                 }
-
                 div{
                     border: solid thin grey;
                     border-radius: 5px;
