@@ -44,7 +44,7 @@
                         <td><xsl:value-of select="titulo"/></td>
                         <td><xsl:value-of select="autor"/></td>
                         <xsl:choose>
-                            <xsl:when test="año &lt; 2000'">
+                            <xsl:when test="año &lt; 2000">
                                 <td class="antiguo"><xsl:value-of select="año"/></td>
                             </xsl:when>
                             <xsl:otherwise>
