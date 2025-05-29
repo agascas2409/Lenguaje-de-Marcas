@@ -4,16 +4,17 @@
     <xsl:output method="text" encoding="UTF-8"/>
     <xsl:template match="/">
         
-        CREATE TABLE Autores{
-            id  INT PRIMARY KEY,
-            nombre  VARCAHR(255)
-        };
-
-        CREATE TABLE Libros{
-            id  INT PRIMARY KEY,
-            titulo  Varchar(255),
-            idAutor INT REFERENCES Autores(id)
-        };
+        <xsl:for-each select="baseDeDatos/tabla">
+            CREATE TABLE <xsl:value-of select="@nombre"/>{
+                <xsl:for-each select="campo">
+                    <xsl:value-of select="@nombre"/><xsl:text> </xsl:text><xsl:value-of select="@tipo"/><xsl:if test="@clavePrimaria"> PRYMARY KEY</xsl:if><xsl:if test="@claveForanea"> REFERENCES <xsl:value-of select="@referencia"/></xsl:if><xsl:if test="position() != last()">,</xsl:if>
+                </xsl:for-each>
+            };
+        </xsl:for-each>
+        <xsl:for-each select="baseDeDatos/tabla/datos/fila">
+            INSERT INTO <xsl:value-of select="baseDeDatos/tabla/@nombre"/>
+            VALUES (<xsl:value-of select="id"/>,'<xsl:value-of select="nombre"/>')
+        </xsl:for-each>
 
     </xsl:template>
 </xsl:stylesheet>
