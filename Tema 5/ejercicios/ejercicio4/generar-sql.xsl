@@ -13,7 +13,8 @@
         </xsl:for-each>
         <xsl:for-each select="baseDeDatos/tabla/datos/fila">
             INSERT INTO <xsl:value-of select="baseDeDatos/tabla/@nombre"/>
-            VALUES (<xsl:value-of select="id"/>,'<xsl:value-of select="nombre"/>')
+            VALUES (<xsl:value-of select="id"/>,'<xsl:value-of select="nombre"/>'
+            <xsl:if test="baseDeDatos/tabla/@nombre = Libros">, <xsl:value-of select="idAutor"></xsl:value-of></xsl:if>)
         </xsl:for-each>
 
     </xsl:template>
