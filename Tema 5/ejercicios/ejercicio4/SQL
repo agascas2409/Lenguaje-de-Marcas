@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+            CREATE TABLE Autores{
+                id INT PRYMARY KEY,nombre VARCHAR(255)
+            };
+        
+            CREATE TABLE Libros{
+                id INT PRYMARY KEY,titulo VARCHAR(255),idAutor INT REFERENCES Autores(id)
+            };
+        
+            INSERT INTO Autores VALUES
+            
+                (1, 'Gabriel García Márquez'),
+                (2, 'Isabel Allende');
+        
+            INSERT INTO Libros VALUES
+            
+                (101,'Cien años de soledad', 1),
+                (102,'El amor en los tiempos del cólera', 1),
+                (201,'La casa de los espíritus', 2);
+        

@@ -11,10 +11,21 @@
                 </xsl:for-each>
             };
         </xsl:for-each>
-        <xsl:for-each select="baseDeDatos/tabla/datos/fila">
-            INSERT INTO <xsl:value-of select="baseDeDatos/tabla/@nombre"/>
-            VALUES (<xsl:value-of select="id"/>,'<xsl:value-of select="nombre"/>'
-            <xsl:if test="baseDeDatos/tabla/@nombre = Libros">, <xsl:value-of select="idAutor"></xsl:value-of></xsl:if>)
+        <xsl:for-each select="baseDeDatos/tabla">
+        <xsl:choose>
+        <xsl:when test="@nombre = 'Autores'">
+            INSERT INTO <xsl:value-of select="@nombre"/> VALUES
+            <xsl:for-each select="datos/fila">
+                (<xsl:value-of select="id"/>, '<xsl:value-of select="nombre"/>')<xsl:if test="position() != last()">,</xsl:if>
+            </xsl:for-each>;
+        </xsl:when>
+        <xsl:otherwise>
+            INSERT INTO <xsl:value-of select="@nombre"/> VALUES
+            <xsl:for-each select="datos/fila">
+                (<xsl:value-of select="id"/>,'<xsl:value-of select="titulo"/>', <xsl:value-of select="idAutor"/>)<xsl:if test="position() != last()">,</xsl:if>
+            </xsl:for-each>;
+        </xsl:otherwise>
+        </xsl:choose>
         </xsl:for-each>
 
     </xsl:template>
