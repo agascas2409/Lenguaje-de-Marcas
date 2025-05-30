@@ -34,10 +34,10 @@
                   </xsl:choose>
                   <xsl:choose>
                     <xsl:when test="precio/@moneda = usd">
-                      <td><xsl:value-of select="precio"/><xsl:text> </xsl:text>$</td>
+                      <td><xsl:value-of select="precio"/> $</td>
                     </xsl:when>
                     <xsl:otherwise>
-                      <td><xsl:value-of select="precio"/><xsl:text> </xsl:text>€</td>
+                      <td><xsl:value-of select="precio"/> €</td>
                     </xsl:otherwise>
                   </xsl:choose>
                   <td><xsl:value-of select="peso"/><xsl:text> </xsl:text><xsl:value-of select="peso/@unidad"/></td>
