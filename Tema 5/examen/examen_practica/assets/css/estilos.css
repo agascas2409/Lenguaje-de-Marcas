@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+span{
+    font-style: bold;
+}
+.nombreAzul{
+    color: blue;
+}
+.nombreRojo{
+    color: red;
+}
+th, td {
+    border: 1px solid
+}
+.filaVerde{
+    color: green;
+}
+.filaRoja{
+    color: red;
+}
+.filaNaranja{
+    color: orange;
+}
