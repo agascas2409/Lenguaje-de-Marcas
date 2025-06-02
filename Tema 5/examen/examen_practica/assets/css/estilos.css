@@ -12,6 +12,7 @@ span{
 }
 table{
     border-collapse: collapse;
+    width: 100%;
 }
 th{
     background-color: bisque;
@@ -27,5 +28,5 @@ td {
     color: red;
 }
 .filaNaranja{
-    color: orange;
+    color: rgb(255, 123, 0);
 }
