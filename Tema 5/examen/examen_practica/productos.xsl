@@ -25,19 +25,19 @@
               <xsl:when test="peso &lt; 1">
                 <tr class="filaVerde">
                   <xsl:choose>
-                    <xsl:when test="precio/@moneda = usd">
-                      <td class="nombreAzul"><xsl:value-of select="nombre"/></td>
+                    <xsl:when test="precio/@moneda = 'usd'">
+                      <td><span class="nombreAzul"><xsl:value-of select="nombre"/></span></td>
                     </xsl:when>
                     <xsl:otherwise>
-                      <td class="nombreRojo"><xsl:value-of select="nombre"/></td>
+                      <td><span class="nombreRojo"><xsl:value-of select="nombre"/></span></td>
                     </xsl:otherwise>
                   </xsl:choose>
                   <xsl:choose>
-                    <xsl:when test="precio/@moneda = usd">
-                      <td><xsl:value-of select="precio"/> $</td>
+                    <xsl:when test="precio/@moneda = 'eur'">
+                      <td><xsl:value-of select="precio"/> €</td>
                     </xsl:when>
                     <xsl:otherwise>
-                      <td><xsl:value-of select="precio"/> €</td>
+                      <td><xsl:value-of select="precio"/> $</td>
                     </xsl:otherwise>
                   </xsl:choose>
                   <td><xsl:value-of select="peso"/><xsl:text> </xsl:text><xsl:value-of select="peso/@unidad"/></td>
@@ -55,15 +55,15 @@
               <xsl:when test="peso &gt; 1 and peso &lt; 5">
                 <tr class="filaRoja">
                   <xsl:choose>
-                    <xsl:when test="precio/@moneda = usd">
-                      <td class="nombreAzul"><xsl:value-of select="nombre"/></td>
+                    <xsl:when test="precio/@moneda = 'usd'">
+                      <td><span class="nombreAzul"><xsl:value-of select="nombre"/></span></td>
                     </xsl:when>
                     <xsl:otherwise>
-                      <td class="nombreRojo"><xsl:value-of select="nombre"/></td>
+                      <td><span class="nombreRojo"><xsl:value-of select="nombre"/></span></td>
                     </xsl:otherwise>
                   </xsl:choose>
                   <xsl:choose>
-                    <xsl:when test="precio/@moneda = usd">
+                    <xsl:when test="precio/@moneda = 'usd'">
                       <td><xsl:value-of select="precio"/><xsl:text> </xsl:text>$</td>
                     </xsl:when>
                     <xsl:otherwise>
@@ -85,15 +85,15 @@
               <xsl:otherwise>
                 <tr class="filaNaranja">
                   <xsl:choose>
-                    <xsl:when test="precio/@moneda = usd">
-                      <td class="nombreAzul"><xsl:value-of select="nombre"/></td>
+                    <xsl:when test="precio/@moneda = 'usd'">
+                      <td><span class="nombreAzul"><xsl:value-of select="nombre"/></span></td>
                     </xsl:when>
                     <xsl:otherwise>
-                      <td class="nombreRojo"><xsl:value-of select="nombre"/></td>
+                      <td><span class="nombreRojo"><xsl:value-of select="nombre"/></span></td>
                     </xsl:otherwise>
                   </xsl:choose>
                   <xsl:choose>
-                    <xsl:when test="precio/@moneda = usd">
+                    <xsl:when test="precio/@moneda = 'usd'">
                       <td><xsl:value-of select="precio"/><xsl:text> </xsl:text>$</td>
                     </xsl:when>
                     <xsl:otherwise>

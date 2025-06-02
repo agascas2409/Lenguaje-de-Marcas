@@ -2,7 +2,7 @@ h1{
     text-align: center;
 }
 span{
-    font-style: bold;
+    font-weight: bold;
 }
 .nombreAzul{
     color: blue;
@@ -10,8 +10,15 @@ span{
 .nombreRojo{
     color: red;
 }
-th, td {
-    border: 1px solid
+table{
+    border-collapse: collapse;
+}
+th{
+    background-color: bisque;
+    border: 1px solid;
+}
+td {
+    border: 1px solid;
 }
 .filaVerde{
     color: green;
