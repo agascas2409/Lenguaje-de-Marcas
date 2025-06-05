@@ -20,7 +20,7 @@
             <th>Ciudades</th>
           </tr> 
           <xsl:for-each select="producto">
-            <xsl:sort select="precio" order="ascending"/>
+            <xsl:sort select="precio" data-type="number" order="ascending"/>
             <xsl:choose>
               <xsl:when test="peso &lt; 1">
                 <tr class="filaVerde">
