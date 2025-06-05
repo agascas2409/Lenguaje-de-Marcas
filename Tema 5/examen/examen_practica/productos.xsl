@@ -26,16 +26,16 @@
                 <tr class="filaVerde">
                   <xsl:choose>
                     <xsl:when test="precio/@moneda = 'usd'">
-                      <td><span class="nombreAzul"><xsl:value-of select="nombre"/></span></td>
-                      <td><xsl:value-of select="precio"/> $</td>
+                      <td> <span class="nombreAzul"><xsl:value-of select="nombre"/></span></td>
+                      <td> <xsl:value-of select="precio"/> $</td>
                     </xsl:when>
                     <xsl:otherwise>
-                      <td><span class="nombreRojo"><xsl:value-of select="nombre"/></span></td>
-                      <td><xsl:value-of select="precio"/> €</td>
+                      <td> <span class="nombreRojo"><xsl:value-of select="nombre"/></span></td>
+                      <td> <xsl:value-of select="precio"/> €</td>
                     </xsl:otherwise>
                   </xsl:choose>
-                  <td><xsl:value-of select="peso"/><xsl:text> </xsl:text><xsl:value-of select="peso/@unidad"/></td>
-                  <td><xsl:value-of select="descripcion"/></td>
+                  <td> <xsl:value-of select="peso"/><xsl:text> </xsl:text><xsl:value-of select="peso/@unidad"/></td>
+                  <td> <xsl:value-of select="descripcion"/></td>
                   <td>
                     <ul>
                       <xsl:for-each select="ciudades/ciudad">
@@ -50,16 +50,16 @@
                 <tr class="filaRoja">
                   <xsl:choose>
                     <xsl:when test="precio/@moneda = 'usd'">
-                      <td><span class="nombreAzul"><xsl:value-of select="nombre"/></span></td>
-                      <td><xsl:value-of select="precio"/> $</td>
+                      <td> <span class="nombreAzul"><xsl:value-of select="nombre"/></span></td>
+                      <td> <xsl:value-of select="precio"/> $</td>
                     </xsl:when>
                     <xsl:otherwise>
-                      <td><span class="nombreRojo"><xsl:value-of select="nombre"/></span></td>
-                      <td><xsl:value-of select="precio"/> €</td>
+                      <td> <span class="nombreRojo"><xsl:value-of select="nombre"/></span></td>
+                      <td> <xsl:value-of select="precio"/> €</td>
                     </xsl:otherwise>
                   </xsl:choose>
-                  <td><xsl:value-of select="peso"/><xsl:text> </xsl:text><xsl:value-of select="peso/@unidad"/></td>
-                  <td><xsl:value-of select="descripcion"/></td>
+                  <td> <xsl:value-of select="peso"/><xsl:text> </xsl:text><xsl:value-of select="peso/@unidad"/></td>
+                  <td> <xsl:value-of select="descripcion"/></td>
                   <td>
                     <ul>
                       <xsl:for-each select="ciudades/ciudad">
@@ -74,16 +74,16 @@
                 <tr class="filaNaranja">
                   <xsl:choose>
                     <xsl:when test="precio/@moneda = 'usd'">
-                      <td><span class="nombreAzul"><xsl:value-of select="nombre"/></span></td>
-                      <td><xsl:value-of select="precio"/> $</td>
+                      <td> <span class="nombreAzul"><xsl:value-of select="nombre"/></span></td>
+                      <td> <xsl:value-of select="precio"/> $</td>
                     </xsl:when>
                     <xsl:otherwise>
-                      <td><span class="nombreRojo"><xsl:value-of select="nombre"/></span></td>
-                      <td><xsl:value-of select="precio"/> €</td>
+                      <td> <span class="nombreRojo"><xsl:value-of select="nombre"/></span></td>
+                      <td> <xsl:value-of select="precio"/> €</td>
                     </xsl:otherwise>
                   </xsl:choose>
-                  <td><xsl:value-of select="peso"/><xsl:text> </xsl:text><xsl:value-of select="peso/@unidad"/></td>
-                  <td><xsl:value-of select="descripcion"/></td>
+                  <td> <xsl:value-of select="peso"/><xsl:text> </xsl:text><xsl:value-of select="peso/@unidad"/></td>
+                  <td> <xsl:value-of select="descripcion"/></td>
                   <td>
                     <ul>
                       <xsl:for-each select="ciudades/ciudad">
