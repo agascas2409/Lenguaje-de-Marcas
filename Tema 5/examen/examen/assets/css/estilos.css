@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    background-color: rgb(219, 219, 219);
+    border: 1px solid;
+    color: black;
+}
+td {
+    border: 1px solid;
+}
+.descripcionAmarillo{
+    background-color: rgb(231, 231, 91);
+}
+.nombreVerde{
+    color: green;
+}
+.nombreAmarillo{
+    color: rgb(141, 143, 16);
+}
+.nombreRojo{
+    color: red;
+}

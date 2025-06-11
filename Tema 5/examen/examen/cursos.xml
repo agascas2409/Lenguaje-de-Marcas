@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="cursos.xsl" type="text/xsl"?>
+<cursos>
+  <academia>
+    <nombre>Formación Avanzada SL</nombre>
+    <direccion>Avenida del Conocimiento, 42</direccion>
+  </academia>
+  <curso>
+    <nombre duracion="50" unidad="h">Desarrollo Web</nombre>
+    <matriculados>5</matriculados>
+    <descripcion>Curso intensivo de HTML, CSS y JavaScript</descripcion>
+    <sedes>
+      <sede plazas="15">
+        <nombre>Madrid</nombre>
+        <direccion>Calle de Alcalá, 10</direccion>
+      </sede>
+      <sede plazas="10">
+        <nombre>Barcelona</nombre>
+        <direccion>Gran Vía, 20</direccion>
+      </sede>
+    </sedes>
+  </curso>
+  <curso>
+    <nombre duracion="40" unidad="d">Machine Learning</nombre>
+    <matriculados>30</matriculados>
+    <descripcion>Introducción práctica al aprendizaje automático</descripcion>
+    <sedes>
+      <sede plazas="20">
+        <nombre>New York</nombre>
+        <direccion>Lexington Ave, 45</direccion>
+      </sede>
+      <sede plazas="12">
+        <nombre>San Francisco</nombre>
+        <direccion>Market Street, 33</direccion>
+      </sede>
+    </sedes>
+  </curso>
+  <curso>
+    <nombre duracion="22" unidad="d">Ofimática Básica</nombre>
+    <matriculados>15</matriculados>
+    <descripcion>Manejo de Word, Excel y PowerPoint</descripcion>
+    <sedes>
+      <sede plazas="8">
+        <nombre>Sevilla</nombre>
+        <direccion>Avenida de la Constitución, 11</direccion>
+      </sede>
+    </sedes>
+  </curso>
+  <curso>
+    <nombre duracion="25" unidad="h">Photoshop Avanzado</nombre>
+    <matriculados>20</matriculados>
+    <descripcion>Diseño gráfico digital para profesionales</descripcion>
+    <sedes>
+      <sede plazas="6">
+        <nombre>Miami</nombre>
+        <direccion>Ocean Drive, 3</direccion>
+      </sede>
+      <sede plazas="9">
+        <nombre>Chicago</nombre>
+        <direccion>Michigan Ave, 66</direccion>
+      </sede>
+    </sedes>
+  </curso>
+</cursos>
